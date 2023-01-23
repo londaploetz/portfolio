@@ -1,0 +1,47 @@
+.side-nav-bar {
+   
+        height: 100%; 
+        width: 2;
+        position: fixed; 
+        z-index: 1; 
+        top: 20%; 
+        left: 2%;
+        background-color: rgba(17, 17, 17, 0); 
+        overflow-x: hidden; 
+        padding-top: 60px;
+        transition: 0.5s; 
+      }
+
+      .side-nav-bar a {
+        padding: 30px 30px 30px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: left;
+        border-bottom: 2px solid #818181;
+        
+
+      }
+
+      .side-nav-bar a:hover {
+        color:rgba(44, 107, 111, 0.58);
+      }
+
+      .email-img {
+        position: fixed;
+        height: 8%;
+        width: 4%;
+        left: 2%;
+        top:17%
+      }
+.connect-links {
+        position: fixed;
+        left: 2%;
+        top:24%
+}
+      @media screen and (max-height: 450px) {
+        .side-nav-bar {padding-top: 15px;}
+        .side-nav-bar a {font-size: 18px;}
+      }

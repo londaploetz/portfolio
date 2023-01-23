@@ -1,0 +1,72 @@
+.brand-statement {
+    position: absolute;
+    width: 600px;
+    height: 95px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 45px;
+    color: #5a5555;
+    top: 30%;
+    left: 20%;
+}
+
+
+.top-square {
+    position: absolute;
+    width: 1065px;
+    height: 693px;
+    left: 30%;
+    top: 10%;
+    background: rgba(238, 74, 74, 0.363);
+    border-radius: 10px;
+}
+
+.bottom-square {
+    z-index: -1;
+    position: absolute;
+    width: 1065px;
+    height: 693px;
+    left: 6%;
+    top: 8%;
+    background: rgba(44, 106, 111, 0.473);
+    border-radius: 10px;
+}
+
+.londa {
+
+    position: absolute;
+    width: 467px;
+    height: 95px;
+    top: 6%;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 45px;
+
+    color: #818181;
+}
+
+.left-top-border {
+    position: absolute;
+    width: 429px;
+    height: 429px;
+    left: -2%; 
+    top: -3%; 
+  
+    border-left: 2px solid #818181;
+    border-top: 2px solid #818181;
+    border-radius: 10px 0px 0px 0px;
+}
+.right-bottom-border {
+    position: absolute;
+    width: 429px;
+    height: 429px;
+    left: 68%; 
+    top: 49%; 
+    border-radius: 0px 0px 10px 0px;
+    border-right: 2px solid #818181;
+    border-bottom: 2px solid #818181;
+}
