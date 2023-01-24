@@ -70,3 +70,14 @@
     border-right: 2px solid #818181;
     border-bottom: 2px solid #818181;
 }
+
+.amazing-imgs {
+    position: inherit;
+    height: auto;
+    width: auto;
+    transition:width 0.1s;
+    -webkit-transition:width 0.1s; /* Safari and Chrome */
+    -moz-transition:width 0.1s; /* Firefox 4 */
+    -o-transition:width 0.1s; /* Opera */
+    transition:width 0.1s; /* Opera */
+}

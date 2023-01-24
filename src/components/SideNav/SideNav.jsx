@@ -7,7 +7,7 @@ const SideNav = () => (
 <div className='connect-links'>
     <img className='email-img'
     src={email} 
-    /> email
+    /> let's connect
 
    <div className="side-nav-bar">
     <a href="#AboutMe">About Me</a> 
