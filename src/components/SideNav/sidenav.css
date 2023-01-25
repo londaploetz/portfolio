@@ -1,57 +1,67 @@
 .side-nav-bar {
-   
-        height: 100%; 
-        width: 2;
-        position: fixed; 
-        z-index: 1; 
-        top: 40%; 
-        left: 2%;
-        background-color: rgba(17, 17, 17, 0); 
-        overflow-x: hidden; 
-        padding-top: 10px;
-        transition: 0.5s; 
-      }
 
-      .side-nav-bar a {
-        padding: 30px 30px 30px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-        text-align: left;
-        border-bottom: 2px solid #818181;
-        
-
-      }
-
-      .side-nav-bar a:hover {
-        color:rgba(44, 107, 111, 0.58);
-      }
-
-      .email-img {
-        position: fixed;
-        height: 10%;
-        width: 3%;
-        left: 2%;
-        top:27%
-      }
-.connect-links {
-        position: absolute;
-        left: 5%;
-        top:29%; 
-        color: #818188;
-        text-decoration: none;
-        font-size: 20px;
-        color: #818181;
-        display: block;
+    height: 100%;
+    width: 2;
+    position: fixed;
+    z-index: 1;
+    top: 40%;
+    left: 2%;
+    background-color: rgba(17, 17, 17, 0);
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.5s;
 }
 
-.connect-links:hover {
-    color:rgba(44, 107, 111, 0.58);
-  }
-      @media screen and (max-height: 450px) {
-        .connect-links {padding-top: 15px;}
-        .side-nav-bar {padding-top: 15px;}
-        .side-nav-bar a {font-size: 18px;}
-      }
+.side-nav-bar a {
+    padding: 30px 30px 30px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    border-bottom: 2px solid #818181;
+
+
+}
+
+.side-nav-bar a:hover {
+    color: rgba(44, 107, 111, 0.58);
+}
+
+.email-img {
+    position: fixed;
+    height: 10%;
+    width: 3%;
+    left: 2%;
+    top: 27%
+}
+
+.email-link {
+    position: absolute;
+    border: none;
+    left: 5%;
+    top: 29%;
+    background-color: #81818100;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7a7a7a;
+    display: block;
+}
+
+.email-link:hover {
+    color: rgba(44, 107, 111, 0.58);
+}
+
+
+@media screen and (max-height: 450px) {
+    .connect-links {
+        padding-top: 15px;
+    }
+    .side-nav-bar {
+        padding-top: 15px;
+    }
+    .side-nav-bar a {
+        font-size: 18px;
+    }
+}
