@@ -1,0 +1,10 @@
+.Home {
+    text-align: center;
+     position: fixed;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+  }
+  
