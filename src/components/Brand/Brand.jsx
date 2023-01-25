@@ -1,6 +1,6 @@
 import React from 'react';
 import './brand.css';
-import BrandStatement from './BrandStatement';
+
 
 const Brand = (props) => (
     <div className='brand-container'>
