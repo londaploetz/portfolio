@@ -21,6 +21,7 @@
     top: 10%;
     background: rgba(238, 74, 74, 0.363);
     border-radius: 10px;
+   
 }
 
 .bottom-square {
@@ -53,31 +54,70 @@
     position: absolute;
     width: 429px;
     height: 429px;
-    left: -2%; 
-    top: -3%; 
-  
+    left: -2%;
+    top: -3%;
+
     border-left: 2px solid #818181;
     border-top: 2px solid #818181;
     border-radius: 10px 0px 0px 0px;
 }
+
 .right-bottom-border {
     position: absolute;
     width: 429px;
     height: 429px;
-    left: 68%; 
-    top: 49%; 
+    left: 68%;
+    top: 49%;
     border-radius: 0px 0px 10px 0px;
     border-right: 2px solid #818181;
     border-bottom: 2px solid #818181;
 }
 
-.amazing-imgs {
-    position: inherit;
-    height: auto;
-    width: auto;
-    transition:width 0.1s;
-    -webkit-transition:width 0.1s; /* Safari and Chrome */
-    -moz-transition:width 0.1s; /* Firefox 4 */
-    -o-transition:width 0.1s; /* Opera */
-    transition:width 0.1s; /* Opera */
+
+
+
+.bg_img_change {
+    
+    animation: changeBg 3s infinite;
+    width: 400px;
+    height: 200px;
+    max-width: 400px;
+    max-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-size: contain;
+    overflow: hidden;
+    left: 25%; 
+    top:57%; 
+   
+}
+
+
+@keyframes changeBg {
+
+    0%,
+    100% {
+
+        background-image: url("../../amazing/amazing1.jpg")
+    }
+
+    25% {
+
+        background-image: url("../../amazing/amazing2.jpg")
+    }
+
+    50% {
+
+        background-image: url("../../amazing/amazing5.jpg")
+    }
+    75% {
+
+        background-image: url("../../amazing/amazing4.jpg")
+    }
+
+    100% {
+
+        background-image: url("../../amazing/amazing3.png")
+    }
 }

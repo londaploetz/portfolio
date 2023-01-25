@@ -4,23 +4,19 @@ import AmazingIMG from "./images.js";
 
 
 const BrandStatement = () => {
-  
 
 
-return (
-    <div>
-        <div className='brand-statement'>
-            Let's Create Something
-        </div>
-
-           
-            <img className="amazing-imgs" 
-          
-            src = {AmazingIMG.image}
-            />
+    // <div>
+    //     <div className='brand-statement'>
+    //         Let's Create Something
+         
+    //     </div>
         
+
+    // </div>
+
+
+}
      
- 
-    </div>
-)};
+
 export default BrandStatement;

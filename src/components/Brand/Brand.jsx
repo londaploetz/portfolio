@@ -5,7 +5,13 @@ import BrandStatement from './BrandStatement';
 const Brand = (props) => (
     <div className='brand-container'>
         <div className='top-square'>
-            <BrandStatement />
+       
+        <div className='brand-statement'>
+          Let's Create Something
+         
+     
+        <div className="bg_img_change"></div>
+        </div>
             <div className='bottom-square'>
             </div>
             <a className="left-top-border"/>
