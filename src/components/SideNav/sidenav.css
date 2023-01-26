@@ -1,10 +1,10 @@
 .side-nav-bar {
-
+  
     height: 100%;
     width: 2;
     position: absolute;
     z-index: 4;
-    top: 20%;
+    top: 37%;
     left: 2%;
     background-color: rgba(17, 17, 17, 0);
     overflow-x: hidden;
@@ -12,7 +12,7 @@
     transition: 0.5s;
 }
 
-.side-nav-bar a {
+.side-nav-bar button {
     padding: 30px 30px 30px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -21,11 +21,12 @@
     transition: 0.3s;
     text-align: left;
     border-bottom: 2px solid #818181;
-
+     border: none; 
+    background: rgba(231, 222, 203, 0);
 
 }
 
-.side-nav-bar a:hover {
+.side-nav-bar button:hover {
     color: rgba(44, 107, 111, 0.58);
 }
 
@@ -72,4 +73,40 @@
     .side-nav-bar a {
         font-size: 18px;
     }
+}
+ .about-me-bg {
+    position: absolute;
+    width: 1003px;
+    height: 637px;
+    left: 33.3%;
+    top: 16.4%;
+    background: rgb(231, 222, 203);
+    border-radius: 10px 0px 10px 0px;
+    z-index: 3;
+} 
+
+
+.about-me-txt {
+    position: absolute;
+    width: 600px;
+    height: 95px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 45px;
+    color: #818181;
+    top: 30%;
+    left: 20%;
+}
+
+.close-btn {
+    background-color:#7a7a7a00; 
+    border: none;
+    position: fixed;
+    text-decoration: overline;
+    color: #818181;
+    left: 80%;
+    top: 22%;
+    font-size: 40px;
 }

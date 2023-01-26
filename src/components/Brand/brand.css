@@ -10,6 +10,7 @@
     color: #5a5555;
     top: 30%;
     left: 20%;
+    
 }
 
 
@@ -21,7 +22,7 @@
     top: 10%;
     background: rgba(238, 74, 74, 0.363);
     border-radius: 10px;
-   
+   z-index: 0;
 }
 
 .bottom-square {
@@ -34,6 +35,17 @@
     background: rgba(44, 106, 111, 0.473);
     border-radius: 10px;
 }
+
+.middle-sqr {
+    z-index: 1;
+    position: absolute;
+    width: 1003px;
+    height: 637px;
+    left: 33.3%;
+    top: 16.4%;
+    background: rgb(231, 222, 203);
+    border-radius: 10px 0px 10px 0px;
+} 
 
 .londa {
 
@@ -78,7 +90,7 @@
 
 .bg_img_change {
     
-    animation: changeBg 3s infinite;
+    animation: changeBg 2s infinite;
     width: 400px;
     height: 200px;
     max-width: 400px;
@@ -90,7 +102,7 @@
     overflow: hidden;
     left: 25%; 
     top:57%; 
-   
+    z-index: 3;
 }
 
 
@@ -99,7 +111,7 @@
     0%,
     100% {
 
-        background-image: url("../../amazing/amazing1.jpg")
+        background-image: url("../../amazing/amazing1.png")
     }
 
     25% {
@@ -116,8 +128,10 @@
         background-image: url("../../amazing/amazing4.jpg")
     }
 
-    100% {
+    89% {
 
         background-image: url("../../amazing/amazing3.png")
     }
 }
+
+
