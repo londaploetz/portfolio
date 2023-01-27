@@ -1,5 +1,5 @@
 .side-nav-bar {
-  
+    display: block;
     height: 100%;
     width: 2;
     position: absolute;
@@ -10,9 +10,11 @@
     overflow-x: hidden;
     padding-top: 10px;
     transition: 0.5s;
+    margin: 0%;
 }
 
 .side-nav-bar button {
+    display: block;
     padding: 30px 30px 30px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -21,7 +23,8 @@
     transition: 0.3s;
     text-align: left;
     border-bottom: 2px solid #818181;
-     border: none; 
+     border: none;
+     margin: 0%; 
     background: rgba(231, 222, 203, 0);
 
 }
@@ -109,4 +112,48 @@
     left: 80%;
     top: 22%;
     font-size: 40px;
+}
+
+.close-btn-resume {
+    background-color:#7a7a7a00; 
+    border: none;
+    position: fixed;
+    text-decoration: overline;
+    color: #818181;
+    left: 80%;
+    top: 10%;
+    font-size: 40px;
+   
+}
+.react-pdf__Document {
+    width: 130%;
+    height: 133%;
+   background-color:rgb(228, 228, 228);
+    bottom: 0ch;
+    top: -90px; 
+    right: -99px;
+   position: absolute;
+   align-items: left;
+   border-radius: 10px;
+}
+.react-pdf__Page {
+    top: 2ch;
+    right: -10px;
+   position: relative;
+   align-items: left;
+ 
+}
+.react-pdf__Page__canvas {
+    left: 20%; 
+   bottom: 4.4%;
+   position: absolute;
+   align-items: center;
+   width: 4%;
+   height: 5%;
+   z-index: 1;
+   border: 5px solid #7a7a7a
+}
+
+.react-pdf__Page__textContent {
+    display: none;
 }

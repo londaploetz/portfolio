@@ -50,13 +50,13 @@ return (
 
 {resume != true ? null : <div id = "true" className="about-me-bg">
 
-    <div>
+    <div className='pdf-container'>
       <Document file= {resumePDF}>
         <Page pageNumber={1} /> 
           </Document>{console.log(resume)}
     </div>
 
-  <button className="close-btn "type="button" onClick={closeButton}>x</button> 
+  <button className="close-btn-resume"type="button" onClick={closeButton}>x</button> 
 </div>
 }
 </div>

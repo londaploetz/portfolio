@@ -20,7 +20,10 @@ const Brand = (props) => (
             <a className="right-bottom-border" />
 
         </div>
-        <h1 className='londa'>Londa Ploetz</h1>
+        <h1 className='londa'>
+           Londa Ploetz
+
+            </h1>
     </div>
 );
 export default Brand;
