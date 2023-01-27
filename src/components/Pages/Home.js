@@ -5,7 +5,7 @@ import './pages.css';
 
 function Home() {
   return (
-    <div className="Home" >
+    <div className="home" >
 
     <Brand />
 
