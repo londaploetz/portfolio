@@ -121,26 +121,26 @@
     0%,
     100% {
 
-        background-image: url("../../amazing/amazing1.png")
+        background-image: url("../../Assets/Images/amazing1.png")
     }
 
     25% {
 
-        background-image: url("../../amazing/amazing2.png")
+        background-image: url("../../Assets/Images/amazing2.png")
     }
 
     50% {
 
-        background-image: url("../../amazing/amazing5.png")
+        background-image: url("../../Assets/Images/amazing3.png")
     }
     75% {
 
-        background-image: url("../../amazing/amazing4.png")
+        background-image: url("../../Assets/Images/amazing4.png")
     }
 
     89% {
 
-        background-image: url("../../amazing/amazing3.png")
+        background-image: url("../../Assets/Images/amazing5.png")
     }
 }
 
