@@ -1,73 +1,95 @@
 .brand-statement {
-    position: absolute;
+    position: relative;
     width: 600px;
+    display: block;
     height: 95px;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 45px;
-    color: #5a5555;
-    top: 30%;
+    color: #707070;
+    top: 25%;
     left: 20%;
+    margin: 0%;
+    
 }
 
 
 .top-square {
-    position: absolute;
+    display: block;
+    position: relative;
     width: 1065px;
     height: 693px;
-    left: 30%;
-    top: 10%;
+    left: 65ch;
+    bottom: 62ch;
     background: rgba(238, 74, 74, 0.363);
     border-radius: 10px;
-   
+   z-index: 0;
+   margin: 0%;
 }
 
 .bottom-square {
+    display: block;
     z-index: -1;
-    position: absolute;
+    position: relative;
     width: 1065px;
     height: 693px;
-    left: 6%;
-    top: 8%;
+    left: 6ch;
+    top: 6ch;
     background: rgba(44, 106, 111, 0.473);
     border-radius: 10px;
+    margin: 0%;
 }
 
-.londa {
+.middle-sqr {
+    display: block;
+    z-index: 1;
+    position: relative;
+    width: 1014px;
+    height: 642px;
+    left: 71ch;
+    top: 18.4ch;
+    background: rgb(231, 222, 203);
+    border-radius: 10px 0px 10px 0px;
+    margin: 0%;
+} 
 
-    position: absolute;
+.londa {
+    display: block;
+    position: relative;
     width: 467px;
     height: 95px;
-    top: 6%;
+    bottom: 35.2ch;
+    left: 0.2ch; 
     font-family: Century Gothic;
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 66px;
     line-height: 45px;
 
     color: #818181;
 }
 
 .left-top-border {
-    position: absolute;
+    position: relative;
     width: 429px;
     height: 429px;
-    left: -2%;
-    top: -3%;
-
+    right: 3ch;
+    bottom: 83ch;
+    display: block;
     border-left: 2px solid #818181;
     border-top: 2px solid #818181;
     border-radius: 10px 0px 0px 0px;
 }
 
 .right-bottom-border {
-    position: absolute;
+    display: block;
+    position: relative;
     width: 429px;
     height: 429px;
-    left: 68%;
-    top: 49%;
+    left: 82.5ch;
+    bottom: 91ch; 
     border-radius: 0px 0px 10px 0px;
     border-right: 2px solid #818181;
     border-bottom: 2px solid #818181;
@@ -77,20 +99,20 @@
 
 
 .bg_img_change {
-    
+    display: block;
     animation: changeBg 3s infinite;
-    width: 400px;
-    height: 200px;
-    max-width: 400px;
-    max-height: 200px;
+    width: 900px;
+    height: 700px;
+    max-width: 900px;
+    max-height: 700px;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    position: relative;
     background-size: contain;
     overflow: hidden;
-    left: 25%; 
-    top:57%; 
-   
+    left: 0ch; 
+    bottom:10ch; 
+    z-index: 3;
 }
 
 
@@ -99,25 +121,26 @@
     0%,
     100% {
 
-        background-image: url("../../amazing/amazing1.jpg")
+        background-image: url("../../amazing/amazing1.png")
     }
 
     25% {
 
-        background-image: url("../../amazing/amazing2.jpg")
+        background-image: url("../../amazing/amazing2.png")
     }
 
     50% {
 
-        background-image: url("../../amazing/amazing5.jpg")
+        background-image: url("../../amazing/amazing5.png")
     }
     75% {
 
-        background-image: url("../../amazing/amazing4.jpg")
+        background-image: url("../../amazing/amazing4.png")
     }
 
-    100% {
+    89% {
 
         background-image: url("../../amazing/amazing3.png")
     }
 }
+

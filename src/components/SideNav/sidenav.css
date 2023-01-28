@@ -1,55 +1,71 @@
 .side-nav-bar {
-
+    display: block;
     height: 100%;
     width: 2;
-    position: absolute;
+    position: relative;
     z-index: 4;
-    top: 20%;
-    left: 2%;
+    bottom: 147ch;
+    left: 12ch;
     background-color: rgba(17, 17, 17, 0);
     overflow-x: hidden;
     padding-top: 10px;
     transition: 0.5s;
+    margin: 0%;
 }
 
-.side-nav-bar a {
+.side-nav-bar button {
+    display: block;
     padding: 30px 30px 30px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #818181;
     display: block;
     transition: 0.3s;
     text-align: left;
-    border-bottom: 2px solid #818181;
-
+   
+     border: none;
+     margin: 0%; 
+    background: rgba(231, 222, 203, 0);
+     border-bottom: 2px solid #818181;
 
 }
 
-.side-nav-bar a:hover {
+.side-nav-bar button:hover {
     color: rgba(44, 107, 111, 0.58);
 }
 
 .email-img {
-    position: fixed;
-    height: 10%;
-    width: 3%;
-    left: 2%;
-    top: 27%
+    position: relative;
+    height: 6%;
+    width: 2.3%;
+    bottom: 155ch;
+    right: 97ch; 
+    z-index: 22;
+    padding-left: 3ch;
 }
 
-.email-link {
-    position: absolute;
-    border: none;
-    left: 5%;
-    top: 29%;
-    background-color: #81818100;
-    text-decoration: none;
-    font-size: 20px;
-    color: #7a7a7a;
-    display: block;
+.github-img {
+    position: relative;
+    height: 6%;
+    width: 2.3%;
+    bottom: 155ch;
+    right: 97ch; 
+    z-index: 22;
+    padding-left: 3ch;
 }
 
-.email-link:hover {
+.linkedin-img {
+    position: relative;
+    height: 6%;
+    width: 2.3%;
+    bottom: 155ch;
+    right: 97ch; 
+    z-index: 22;
+    padding-left: 3ch;
+}
+
+
+.email-img:hover {
     color: rgba(44, 107, 111, 0.58);
 }
 
@@ -60,7 +76,7 @@
     font-size: 20px;
     color: #7a7a7a;
     display: block;
-    z-index: 1;
+    z-index: 44;
 }
 @media screen and (max-height: 450px) {
     .connect-links {
@@ -72,4 +88,85 @@
     .side-nav-bar a {
         font-size: 18px;
     }
+}
+ .about-me-bg {
+    position: relative;
+
+    width: 1014px;
+    height: 643px;
+    left: 71ch;
+    bottom: 203.5ch;
+    background: rgb(231, 222, 203);
+    border-radius: 10px 0px 10px 0px;
+    z-index: 6;
+} 
+
+
+.about-me-txt {
+    position: relative;
+    width: 600px;
+    height: 95px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 45px;
+    color: #818181;
+    top: 30%;
+    left: 20%;
+}
+
+.close-btn {
+    background-color:#7a7a7a00; 
+    border: none;
+    position: fixed;
+    text-decoration: overline;
+    color: #818181;
+    left: 80%;
+    top: 22%;
+    font-size: 40px;
+}
+
+.close-btn-resume {
+    background-color:#7a7a7a00; 
+    border: none;
+    position: fixed;
+    text-decoration: overline;
+    color: #818181;
+    left: 80%;
+    top: 10%;
+    font-size: 40px;
+   
+}
+.react-pdf__Document {
+    width: 130%;
+    height: 133%;
+   background-color:rgb(228, 228, 228);
+    bottom: 0ch;
+    top: -90px; 
+    right: 111px;
+   position: relative;
+   align-items: left;
+   border-radius: 10px;
+}
+.react-pdf__Page {
+    top: 2ch;
+    right: -10px;
+   position: relative;
+   align-items: left;
+ 
+}
+.react-pdf__Page__canvas {
+    left: 20%; 
+   bottom: 4.4%;
+   position: relative;
+   align-items: center;
+   width: 4%;
+   height: 5%;
+   z-index: 1;
+   border: 5px solid #7a7a7a
+}
+
+.react-pdf__Page__textContent {
+    display: none;
 }
