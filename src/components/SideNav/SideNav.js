@@ -69,7 +69,13 @@ const SideNav = () => {
 
       {resume != true ? null : <div id="true" className="about-me-bg">
 
-        <div className='pdf-container'>
+        <div className='pdf-container'>  
+        <div className='wrapper-sqr'></div> 
+          <div className='top-sqr'></div> 
+          <div className='btm-sqr'></div> 
+        
+          <div className='v-line'></div> 
+          <div className='v-line2'></div> 
           <Document file={resumePDF}>
             <Page pageNumber={1} />
           </Document>{console.log(resume)}
