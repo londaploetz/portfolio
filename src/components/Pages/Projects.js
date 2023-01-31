@@ -1,9 +1,11 @@
 import React from 'react';
+import EachProject from '../EachProject/EachProject';
+
 
 
 const Projects = () => (
-    <div className='Projects-container'>
-  Projects
+    <div className='projects'>
+ <EachProject /> 
     </div>
 );
 export default Projects;
