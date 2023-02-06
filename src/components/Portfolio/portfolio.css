@@ -1,13 +1,135 @@
 .images {
-    height:50ch; 
-    width: 100ch;
+    height: 20ch;
+    width: 50ch;
     position: relative;
 }
 
-.Portfolios-container__portfolio {
+.portfolios-container__portfolio {
+    color: rgb(107, 108, 109);
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    text-align: left;
+    height: 80ch;
+    width: auto;
+    margin-bottom: -17%;
+    line-height: 45px;
+}
+
+.portfolios-container__portfolio-title {
+    font-size: 20px;   
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    color: #818181;
+    line-height: 45px;
+  
+}
+
+.portfolios-container__portfolio-title h1 {
+    font-weight: 400;   
+    text-decoration: underline 2px;
+}
+
+.portfolios-container_portfolio-text {
+    position: relative;
+    height: 12ch;
+    width: 54ch;
+    
+}
+
+.homeNav_container {
+    display: block;
+    height: 500%;
+    width: 40%;
+    z-index: 2;
+
+    right: 120ch;
+    background-color: rgba(17, 17, 17, 0);
+    position: fixed;
+    top: 2px;
+
+    padding-top: 10px;
+
+    margin: 0%;
+
 
 }
 
-.Portfolios-container__portfolio-title {
+.londa_home {
+    font-family: Century Gothic;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    font-size: 66px;
+    line-height: 45px;
+    color: #818181;
+    padding-top: 2ch;
+}
+
+.project-home {
+    position: relative;
+    padding-top: 4ch;
+    padding-bottom: 1ch; 
+    margin-left: 8ch;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    width: 6ch;
+    text-align: center;
+
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    z-index: 4;
+
+    border-bottom: 2px solid #818181;
+
+}
+
+.project-home:hover {
+color:rgba(44, 107, 111, 0.58);
+border-bottom: 2px solid rgba(44, 107, 111, 0.58);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(228, 228, 228);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(44, 107, 111, 0.58);
+    border-radius: 100ch;
+    width: 2ch;
+    height: 3ch;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(235, 170, 170);
+}
+
+.btn_github_prg{
+    position: relative;
+    z-index: 22;
+    width: 50ch;
+    height: 5ch;
+    top: 0ch;
+    right: 10ch;
+    border: none;
+    background-color:rgba(228, 228, 228, 0);
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    color:rgba(44, 107, 111, 0.58);
     
 }

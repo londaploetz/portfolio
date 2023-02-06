@@ -55,7 +55,7 @@ const SideNav = () => {
 
       <div className="side-nav-bar">
         <button className="btn-links" onClick={clickAboutMe}>About Me</button>
-        <button className="btn-links" > Projects</button>
+        <button className="btn-links" > Projects </button>
         <button className="btn-links" onClick={clickResume}>Resume</button>
 
       </div>

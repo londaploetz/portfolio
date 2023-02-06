@@ -159,9 +159,7 @@
     z-index: 22;
    
 }
- .close-btn-resume button:hover{
-  color:#07b4f8
-}
+
 
 .react-pdf__Document {
     width:0%;
