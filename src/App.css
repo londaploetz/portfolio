@@ -1,4 +1,4 @@
-.Home {
+.home {
   text-align: center;
    position: fixed;
   background-color: rgba(0, 0, 0, 0.1);
@@ -8,4 +8,5 @@
   background-size: cover;
   display: block;
   margin: 0%;
+  overflow-x: hidden;
 }
