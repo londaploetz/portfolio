@@ -6,6 +6,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import resumePDF from "../../Assets/Documents/resume2023.pdf";
 import github from "../../Assets/github.png";
 import linkedin from "../../Assets/linkedin.png";
+import Projects from '../Pages/Projects';
 
 const SideNav = () => {
 
@@ -55,7 +56,10 @@ const SideNav = () => {
 
       <div className="side-nav-bar">
         <button className="btn-links" onClick={clickAboutMe}>About Me</button>
-        <button className="btn-links" > Projects </button>
+        <button className="btn-links" onClick={(e) => {
+          e.preventDefault();
+          window.location.href = "/projects";
+        }} > Projects </button>
         <button className="btn-links" onClick={clickResume}>Resume</button>
 
       </div>
@@ -63,7 +67,12 @@ const SideNav = () => {
       {aboutMe != true ? null : <div id="true" className="about-me-bg">
         <button className="close-btn " type="button" onClick={closeButton}>x</button>
         <div className='about-me-txt'>
-          <p> all about mee yay</p>
+          <p> A front-end developer who loves to engineer creative, fun, and innovative projects. 
+            Bachelor’s Degree of Fine Arts brings an important understanding of communication and collaboration, 
+            thriving in a teamwork setting. 
+            With years spent teaching, bring a great deal of patience and quick problem-solving skills. 
+            Ready to bring my creativity and a passion for coding to the next level, 
+            adding value while providing creative solutions.</p>
         </div>
       </div>}
 

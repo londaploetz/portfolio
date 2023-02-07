@@ -119,16 +119,16 @@
 
 .about-me-txt {
     position: relative;
-    width: 600px;
+    width: 670px;
     height: 95px;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 28px;
     line-height: 45px;
     color: #818181;
-    top: 30%;
-    left: 20%;
+    left: 10%;
+    text-align: left;
 }
 
 .close-btn {

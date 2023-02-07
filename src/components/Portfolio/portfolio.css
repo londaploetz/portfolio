@@ -1,19 +1,25 @@
 .images {
-    height: 20ch;
-    width: 50ch;
+    height: 25ch;
+    width: 48ch;
     position: relative;
+    box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.58);
+    border-radius: 2%;
+    left: 5ch;
 }
 
 .portfolios-container__portfolio {
     color: rgb(107, 108, 109);
     font-size: 20px;
     color: #818181;
-    display: block;
+    display: table;
+    margin-top: 4ch;
     text-align: left;
-    height: 80ch;
-    width: auto;
-    margin-bottom: -17%;
+    height: 70ch;
+    width: 70ch;
     line-height: 45px;
+    border: 3px solid rgb(235, 170, 170);
+    border-radius: 20px;
+    box-shadow: 20px 20px rgba(44, 107, 111, 0.58);
 }
 
 .portfolios-container__portfolio-title {
@@ -24,34 +30,40 @@
     text-align: left;
     color: #818181;
     line-height: 45px;
+    left: 4ch;
+    position: relative;
   
 }
 
 .portfolios-container__portfolio-title h1 {
     font-weight: 400;   
     text-decoration: underline 2px;
+
 }
 
-.portfolios-container_portfolio-text {
+.portfolios-container_portfolio-text p {
     position: relative;
     height: 12ch;
     width: 54ch;
+    left: 5ch;
+    
     
 }
 
 .homeNav_container {
-    display: block;
-    height: 500%;
-    width: 40%;
+    display: block; 
+    position: relative;
+    height: 20ch;
+    width: 0ch;
     z-index: 2;
 
-    right: 120ch;
+    left: 4ch;
+    bottom: 190ch;
     background-color: rgba(17, 17, 17, 0);
-    position: fixed;
-    top: 2px;
+   
 
     padding-top: 10px;
-
+    padding-bottom: 10px;
     margin: 0%;
 
 
@@ -59,27 +71,29 @@
 
 .londa_home {
     font-family: Century Gothic;
-    position: relative;
+    position: fixed;
     font-style: normal;
     font-weight: 400;
     text-align: left;
     font-size: 66px;
     line-height: 45px;
     color: #818181;
-    padding-top: 2ch;
+    padding-top: 0ch;
+    top: 3ch;
+    left: 2ch;
 }
 
 .project-home {
-    position: relative;
-    padding-top: 4ch;
+    position: fixed;
+    padding-top: 6ch;
     padding-bottom: 1ch; 
-    margin-left: 8ch;
+    margin-left: 7ch;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 37px;
     color: #818181;
-    width: 6ch;
+    width: 5ch;
     text-align: center;
-
+    font-weight: 400;
     display: block;
     transition: 0.3s;
     text-align: left;
@@ -123,13 +137,13 @@ border-bottom: 2px solid rgba(44, 107, 111, 0.58);
     z-index: 22;
     width: 50ch;
     height: 5ch;
-    top: 0ch;
-    right: 10ch;
+    top: 3ch;
+    right: 12ch;
     border: none;
     background-color:rgba(228, 228, 228, 0);
     position: relative;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 30px;
-    color:rgba(44, 107, 111, 0.58);
+    color: rgb(235, 170, 170); 
     
 }
