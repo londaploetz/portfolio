@@ -30,6 +30,9 @@ const SideNav = () => {
 
   return (
     <div className='connect-links'>
+          <h1 className='londa'>
+            Londa Ploetz
+        </h1>
       <img className='email-img'
         src={email}
         type="button"
@@ -64,7 +67,8 @@ const SideNav = () => {
 
       </div>
 
-      {aboutMe != true ? null : <div id="true" className="about-me-bg">
+      {aboutMe != true ? null :   <div id="true" className="about-me-bg">
+        <div className='wrapper-sqr-about-me'></div>
         <button className="close-btn " type="button" onClick={closeButton}>x</button>
         <div className='about-me-txt'>
           <p> A front-end developer who loves to engineer creative, fun, and innovative projects. 
@@ -73,10 +77,12 @@ const SideNav = () => {
             With years spent teaching, bring a great deal of patience and quick problem-solving skills. 
             Ready to bring my creativity and a passion for coding to the next level, 
             adding value while providing creative solutions.</p>
-        </div>
-      </div>}
+          
+        
+     </div>  
+     </div>}
 
-      {resume != true ? null : <div id="true" className="about-me-bg">
+      {resume != true ? null : <div id="true" className="resume_container">
 
         <div className='pdf-container'>  
         <div className='wrapper-sqr'></div> 
