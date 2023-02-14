@@ -1,7 +1,18 @@
 .each-project-container {
-    position: relative; 
-    overflow: scroll;
+    position: relative;
+   
+    text-align: left;
+    left: 700px;
+    top: 60px;
+    width: 50%;
+    height: 200ch;
+    border-radius: 0%; 
 }
+
+
 .eachProject_section__padding {
-    overflow: scroll;
+    overflow: hidden;
+    padding: 2ch;
+    position: relative;
+
 }

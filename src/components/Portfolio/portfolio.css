@@ -1,13 +1,250 @@
 .images {
-    height:50ch; 
-    width: 100ch;
+    height: 25ch;
+    width: 48ch;
     position: relative;
+    box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.58);
+    border-radius: 2%;
+    left: 5ch;
 }
 
-.Portfolios-container__portfolio {
+.portfolios-container__portfolio {
+    color: rgb(107, 108, 109);
+    font-size: 20px;
+    color: #818181;
+    display: table;
+    margin-top: 4ch;
+    text-align: left;
+    height: 70ch;
+    width: 70ch;
+    line-height: 45px;
+    border: 3px solid rgb(235, 170, 170);
+    border-radius: 20px;
+    box-shadow: 20px 20px rgba(44, 107, 111, 0.58);
+}
+
+.portfolios-container__portfolio-title {
+    font-size: 20px;   
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    color: #818181;
+    line-height: 45px;
+    left: 4ch;
+    position: relative;
+  
+}
+
+.portfolios-container__portfolio-title h1 {
+    font-weight: 400;   
+    text-decoration: underline 2px;
 
 }
 
-.Portfolios-container__portfolio-title {
+.portfolios-container_portfolio-text p {
+    position: relative;
+    height: 12ch;
+    width: 54ch;
+    left: 5ch;
     
+    
+}
+
+.homeNav_container {
+    display: block; 
+    position: relative;
+    height: 20ch;
+    width: 0ch;
+    z-index: 2;
+
+    left: 4ch;
+    bottom: 190ch;
+    background-color: rgba(17, 17, 17, 0);
+   
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+
+
+}
+
+.londa_home {
+    font-family: Century Gothic;
+    position: fixed;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    font-size: 66px;
+    line-height: 45px;
+    color: #818181;
+    padding-top: 0ch;
+    top: 3ch;
+    left: 2ch;
+}
+
+.project-home {
+    position: fixed;
+    padding-top: 6ch;
+    padding-bottom: 1ch; 
+    margin-left: 7ch;
+    text-decoration: none;
+    font-size: 37px;
+    color: #818181;
+    width: 5ch;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    z-index: 4;
+
+    border-bottom: 2px solid #818181;
+
+}
+
+.project-home:hover {
+color:rgba(44, 107, 111, 0.58);
+border-bottom: 2px solid rgba(44, 107, 111, 0.58);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(228, 228, 228);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(44, 107, 111, 0.58);
+    border-radius: 100ch;
+    width: 2ch;
+    height: 3ch;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(235, 170, 170);
+}
+
+.btn_github_prg{
+    position: relative;
+    z-index: 22;
+    width: 50ch;
+    height: 5ch;
+    top: 3ch;
+    right: 12ch;
+    border: none;
+    background-color:rgba(228, 228, 228, 0);
+    position: relative;
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(235, 170, 170); 
+    
+}
+
+@media screen and (max-width: 730px) {
+
+    .images {
+        height: 25ch;
+        width: 48ch;
+        position: relative;
+        box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.58);
+        border-radius: 2%;
+        left: 5ch;
+    }
+    
+    .portfolios-container__portfolio {
+        display: table;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .portfolios-container__portfolio-title {
+        font-size: 20px;   
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        color: #818181;
+        line-height: 45px;
+        left: 4ch;
+        position: relative;
+      
+    }
+    
+    .portfolios-container__portfolio-title h1 {
+        font-weight: 400;   
+        text-decoration: underline 2px;
+    
+    }
+    
+    .portfolios-container_portfolio-text p {
+        position: relative;
+        height: 12ch;
+        width: 54ch;
+        left: 5ch;
+        
+        
+    }
+    
+    .homeNav_container {
+        display: block; 
+        position: relative;
+        height: 20ch;
+        width: 0ch;
+        z-index: 2;
+    
+        left: 4ch;
+        bottom: 190ch;
+        background-color: rgba(17, 17, 17, 0);
+       
+    
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0%;
+    
+    
+    }
+    
+    .londa_home {
+        font-family: Century Gothic;
+        position: fixed;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        font-size: 3px;
+        line-height: 45px;
+        color: #818181;
+        padding-top: 0ch;
+        top: 3ch;
+        left: 2ch;
+    }
+    
+    .project-home {
+        position: fixed;
+        padding-top: 6ch;
+        padding-bottom: 1ch; 
+        margin-left: 7ch;
+        text-decoration: none;
+        font-size: 37px;
+        color: #818181;
+        width: 5ch;
+        text-align: center;
+        font-weight: 400;
+        display: block;
+        transition: 0.3s;
+        text-align: left;
+        z-index: 4;
+    
+        border-bottom: 2px solid #818181;
+    
+    }
+
+
 }
