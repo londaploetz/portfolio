@@ -67,8 +67,9 @@ const SideNav = () => {
 
       </div>
 
-      {aboutMe != true ? null :   <div id="true" className="about-me-bg">
-        <div className='wrapper-sqr-about-me'></div>
+      {aboutMe != true ? null :  <div className='wrapper-sqr-about-me'>
+      <div id="true" className="about-me-bg">
+        
         <button className="close-btn " type="button" onClick={closeButton}>x</button>
         <div className='about-me-txt'>
           <p> A front-end developer who loves to engineer creative, fun, and innovative projects. 
@@ -78,7 +79,7 @@ const SideNav = () => {
             Ready to bring my creativity and a passion for coding to the next level, 
             adding value while providing creative solutions.</p>
           
-        
+        </div> 
      </div>  
      </div>}
 

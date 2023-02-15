@@ -61,7 +61,7 @@
     position: relative;
     width: 50%;
     height: 54ch;
-    left: 70ch;
+    left: 63ch;
     top: 10ch;
     background: rgba(173, 173, 173, 0);
     /* border-radius: 10px 10px 10px 10px;
@@ -77,32 +77,6 @@ border-radius: 10px;
 }
 
 
-
-.left-top-border {
-    position: relative;
-    width: 429px;
-    height: 429px;
-    left: 63ch;
-    bottom: 53ch;
-    display: block;
-    border-left: 2px solid #b17889;
-    border-top: 2px solid #b17889;
-    border-radius: 20px 0px 0px 0px;
-    z-index: 1;
-}
-
-.right-bottom-border {
-    display: block;
-    position: relative;
-    width: 429px;
-    height: 429px;
-    left: 140ch;
-    bottom: 83ch;
-    border-radius: 0px 0px 20px 0px;
-    border-right: 2px solid #b17889;
-    border-bottom: 2px solid #b17889;
-    z-index: 1;
-}
 
 
 

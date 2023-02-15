@@ -6,10 +6,11 @@ const Brand = (props) => (
         <div className='brand-container'>
             
             <div className='top-square'>
+                <div className='bottom-square'>
                     <div className='middle-sqr'>
                 <div className='brand-statement'>
                     Let's Create Something
-                    <div className="bg_img_change">
+                    <div className="bg_img_change"></div>
                 </div>
             </div>
                 </div>

@@ -1,6 +1,6 @@
 .side-nav-bar {
     display: block;
-    height: 300%;
+    height: 100%;
     width: 100%;
     position: relative;
     z-index: 22;
@@ -23,7 +23,7 @@
     display: block;
     transition: 0.3s;
     text-align: left;
-    z-index: 4;
+    z-index: 22;
     border: none;
     margin: 0%;
     background: rgba(231, 222, 203, 0);
@@ -94,13 +94,13 @@
 
 .connect-links {
     position: relative;
-    bottom: 155ch;
+    bottom: 55ch;
     left: 8ch;
     height: 500px;
     width: 300px;
     margin: none;
 
-    z-index: 1;
+    z-index: 2;
 
 
 }
@@ -121,14 +121,14 @@
 
 .about-me-bg {
     position: relative;
-    z-index: 2;
-    width: 300%;
+   
+    width: 15%;
     height: 64ch;
-    left: 65ch;
-    bottom: 195ch;
-    background: rgb(231, 222, 203);
+    left: 4ch;
+    top: 10ch;
+    background: rgb(243, 218, 164);
     border-radius: 10px 0px 10px 0px;
-    z-index: 4;
+    z-index: 6;
     border-radius: 10px;
     border: 0.5rem outset rgb(219, 117, 134);
     outline: 0.5rem solid rgb(141, 91, 124);
@@ -149,31 +149,35 @@
 
 .wrapper-sqr-about-me {
     display: box; 
-    z-index: 22;
-    position: absolute;
-    width: 700ch;
-    height: 1100px;
-    right: 10ch;
-    bottom: 17ch;
-    margin: -500px; 
-    background: rgb(107, 22, 22);
+    z-index: 0;
+    position: relative;
+    height:800px;
+    left: 110ch;
+    bottom: 145ch;
+    background: rgb(228, 228, 228);
     border-radius: 10px 0px 10px 0px;
-  
+    overflow: hidden;
+   
 }
 
 .about-me-txt {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 95px;
+    margin-right: 30px;
+    height: 140px;
+    word-wrap: break-word;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 45px;
     color: #818181;
-    left: 10%;
+    top: 40px; 
+    left: 5px;
     text-align: left;
-    z-index: 2;
+    z-index: 3;
 }
 
 .close-btn {
@@ -223,7 +227,7 @@
 }
 
 .react-pdf__Page__canvas {
-    left: 24ch;
+    left: 2ch;
     bottom: 325.5ch;
     position: relative;
     align-items: center;
@@ -241,7 +245,7 @@
     position: relative;
     width: 666px;
     height: 838px;
-    left: 20ch;
+    left: -2ch;
     bottom: 133ch;
     background: rgb(235, 170, 170);
     border-radius: 10px;
@@ -254,9 +258,9 @@
     z-index: 2;
     position: relative;
     width: 666px;
-    height: 837px;
-    left: 25ch;
-    bottom: 225ch;
+    height: 838px;
+    left: 3.2ch;
+    bottom: 225.6ch;
     background: rgba(44, 106, 111, 0.473);
     border-radius: 10px;
     margin: 0%;
