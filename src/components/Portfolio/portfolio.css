@@ -12,14 +12,17 @@
     font-size: 20px;
     color: #818181;
     display: table;
-    margin-top: 4ch;
+    margin-top: 8ch;
     text-align: left;
     height: 70ch;
     width: 70ch;
     line-height: 45px;
-    border: 3px solid rgb(235, 170, 170);
+    border: 0.5rem outset rgb(235, 170, 170);
+    outline: 0.5rem solid rgb(211, 163, 195);
+    box-shadow: 0 0 0 2rem rgba(44, 107, 111, 0.58);
     border-radius: 20px;
-    box-shadow: 20px 20px rgba(44, 107, 111, 0.58);
+    gap: 10ch;
+   
 }
 
 .portfolios-container__portfolio-title {
