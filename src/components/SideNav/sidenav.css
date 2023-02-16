@@ -7,8 +7,7 @@
     top: 66px;
     left: 5ch;
     background-color: rgba(17, 17, 17, 0);
-
-    padding-top: 10px;
+    /* padding-top: 10px; */
     transition: 0.5s;
     margin: 0%;
 
@@ -93,9 +92,10 @@
 }
 
 .connect-links {
-    position: relative;
-    bottom: 55ch;
+    position: absolute;
+    /* bottom: 55ch; */
     left: 8ch;
+    top: 55px; 
     height: 500px;
     width: 300px;
     margin: none;
@@ -122,22 +122,21 @@
 .about-me-bg {
     position: relative;
    
-    width: 15%;
+    width: 50%;
     height: 64ch;
     left: 4ch;
     top: 10ch;
-    background: rgb(243, 218, 164);
+    background: rgb(241, 235, 220);
     border-radius: 10px 0px 10px 0px;
     z-index: 6;
     border-radius: 10px;
-    border: 0.5rem outset rgb(219, 117, 134);
-    outline: 0.5rem solid rgb(141, 91, 124);
-    box-shadow: 0 0 0 2rem rgb(93, 124, 136);
+    border: 0.5rem solid rgba(44, 107, 111, 0.58);
+    outline: 0.5rem double rgb(182, 191, 194);
+    box-shadow: 0 0 0 1rem rgb(235, 170, 170);
     overflow: hidden;
 }
 .resume_container {
     position: relative;
-    z-index: 2;
     width: 100%;
     height: 64ch;
     left: 65ch;
@@ -147,13 +146,15 @@
     z-index: 4;
 }
 
+
 .wrapper-sqr-about-me {
-    display: box; 
+   
     z-index: 0;
     position: relative;
     height:800px;
-    left: 110ch;
-    bottom: 145ch;
+    width: 200ch;
+    left: 60ch;
+    bottom: 90ch;
     background: rgb(228, 228, 228);
     border-radius: 10px 0px 10px 0px;
     overflow: hidden;
@@ -164,9 +165,9 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-right: 30px;
-    height: 140px;
+    width: 99%;
+    margin-right: 20px;
+    height: 160px;
     word-wrap: break-word;
     font-family: Century Gothic;
     font-style: normal;
@@ -188,8 +189,8 @@
     height: 55px;
     border: 2px solid #7a7a7a;
     border-radius: 100%;
-    left: 18ch;
-    top: 2ch;
+    left: 17ch;
+    top: 1ch;
     font-size: 40px;
     z-index: 5;
 }
@@ -202,8 +203,8 @@
     height: 55px;
     border: 2px solid #7a7a7a;
     border-radius: 100%;
-    left: 20ch;
-    bottom: 196ch;
+    left: 20.2ch;
+    bottom: 76ch;
     font-size: 40px;
     z-index: 22;
 
@@ -219,20 +220,25 @@
 }
 
 .react-pdf__Page {
-    top: 2.1ch;
-    right: -10px;
+    top: 120ch;
+    right: -3px;
     position: relative;
     align-items: left;
+   
 
 }
 
 .react-pdf__Page__canvas {
     left: 2ch;
-    bottom: 325.5ch;
+    bottom: 133ch;
     position: relative;
     align-items: center;
     z-index: 4;
     border: 5px solid #7a7a7a;
+    border-radius: 10px;
+    border: 0.5rem solid rgba(44, 107, 111, 0.58);
+    outline: 0.5rem double rgb(182, 191, 194);
+    box-shadow: 0 0 0 1rem rgb(235, 170, 170);
 }
 
 .react-pdf__Page__textContent {
@@ -240,31 +246,7 @@
 }
 
 
-.top-sqr {
-    display: block;
-    position: relative;
-    width: 666px;
-    height: 838px;
-    left: -2ch;
-    bottom: 133ch;
-    background: rgb(235, 170, 170);
-    border-radius: 10px;
-    z-index: 3;
-    margin: 0%;
-}
 
-.btm-sqr {
-    display: block;
-    z-index: 2;
-    position: relative;
-    width: 666px;
-    height: 838px;
-    left: 3.2ch;
-    bottom: 225.6ch;
-    background: rgba(44, 106, 111, 0.473);
-    border-radius: 10px;
-    margin: 0%;
-}
 
 
 .wrapper-sqr {
@@ -274,32 +256,13 @@
     width: 1600px;
     height: 1100px;
     right: 10ch;
-    bottom: 33ch;
+    top: 100ch;
     background: rgb(228, 228, 228);
     border-radius: 10px 0px 10px 0px;
     margin: 0%;
 
 }
 
-.v-line {
-    position: relative;
-    width: 385.01px;
-    height: 0px;
-    right: 10ch;
-    bottom: 303ch;
-    border: 1px solid #818181;
-    transform: rotate(90deg);
-}
-
-.v-line2 {
-    position: relative;
-    width: 385.01px;
-    height: 0px;
-    left: 88ch;
-    bottom: 250ch;
-    border: 1px solid #818181;
-    transform: rotate(90deg);
-}
 
 @media screen and (max-width: 730px) {
     .side-nav-bar {
