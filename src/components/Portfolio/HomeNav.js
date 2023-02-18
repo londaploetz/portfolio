@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
 
 const HomeNav = () => {
+
+const location = useLocation();
 
     return (
         <div className="homeNav_container">

@@ -1,6 +1,8 @@
-.each-project-container {
+/* .each-project-container {
     position: relative;
-   
+    justify-content: flex-start;
+    padding: 2ch;
+    position: relative;
     text-align: left;
     left: 700px;
     top: 60px;
@@ -12,7 +14,10 @@
 
 .eachProject_section__padding {
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     padding: 2ch;
     position: relative;
 
-}
+} */

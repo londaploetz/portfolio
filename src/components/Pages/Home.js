@@ -8,8 +8,6 @@ function Home() {
     <div className="home" >
 
     <Brand />
-
-    <SideNav />
     
     </div>
   );
