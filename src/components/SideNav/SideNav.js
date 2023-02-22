@@ -5,8 +5,19 @@ import { useState } from "react";
 import github from "../../Assets/github.png";
 import linkedin from "../../Assets/linkedin.png";
 import { Link, useLocation } from "react-router-dom";
+import HomeNav from '../Portfolio/HomeNav';
 
 const SideNav = (props) => {
+
+  const location = useLocation();
+
+  if (location.pathname === "/projects") {
+
+    return <HomeNav />
+} else {
+
+return (
+
 
   // const [whichPage, setWhichPage] = useState('home');
 
@@ -17,33 +28,28 @@ const SideNav = (props) => {
   //     setWhichPage()
   //   }
   // }
-  return (
+
     <div className='side-nav-bar'>
       <h1 className='londa'>
         Londa Ploetz
       </h1>
-      <img className='email-img'
-        src={email}
-        type="button"
-        onClick={() => window.location = 'mailto:lploetz@hotmail.com'}
-      />
-      <img className='github-img'
-        src={github}
-        type="button"
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href = "https://github.com/londaploetz";
-        }}
-
-      />
-      <img className='linkedin-img'
-        type="button"
-        src={linkedin}
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href = "https://linkedin.com/in/londa-ploetz";
-        }}
-      />
+<div className='circle-links'>
+      <a href= 'mailto:lploetz@hotmail.com' 
+         target = "_blank" 
+         className = "email-img" 
+         rel="noopener noreferrer"
+         ></a> 
+     <a href= "https://github.com/londaploetz"
+         target = "_blank" 
+         className = "github-img" 
+         rel="noopener noreferrer"
+         ></a> 
+        <a href= "https://linkedin.com/in/londa-ploetz"
+         target = "_blank" 
+         className = "linkedin-img" 
+         rel="noopener noreferrer"
+         ></a> 
+     </div>
 
 
       <div className="connect-links">
@@ -57,6 +63,8 @@ const SideNav = (props) => {
 
       </div>
     </div>
-  )
+)
+}
 };
+
 export default SideNav;

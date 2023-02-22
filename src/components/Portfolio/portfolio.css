@@ -1,10 +1,10 @@
 .images {
     height: 25ch;
-    width: 48ch;
+    width: 45ch;
     position: relative;
     box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.58);
     border-radius: 2%;
-    left: 5ch;
+    left: 8ch;
 }
 
 .portfolios-container__portfolio {
@@ -15,7 +15,7 @@
     margin-top: 8ch;
     text-align: left;
     height: 70ch;
-    width: 70ch;
+    width: 80%;
     line-height: 45px;
     border-radius: 2ch;
     background: rgba(207, 186, 186, 0.164);
@@ -33,6 +33,7 @@
     color: #818181;
     line-height: 45px;
     left: 4ch;
+    width: 90%;
     position: relative;
     text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
 }
@@ -40,6 +41,7 @@
 .portfolios-container__portfolio-title h1 {
     font-weight: 400;   
     text-decoration: underline 2px;
+    width: 90%;
 
 }
 
@@ -48,24 +50,21 @@
     height: 12ch;
     width: 54ch;
     left: 5ch;
+    width: 90%;
+    overflow: hidden;
     
     
 }
 
 .homeNav_container {
     display: block; 
-    position: relative;
-    height: 20ch;
-    width: 0ch;
+    position: fixed;
+    height: 39ch;
     z-index: 2;
 
     left: 4ch;
-    bottom: 190ch;
-    background-color: rgba(17, 17, 17, 0);
+    background-color: rgba(177, 19, 19, 0);
    
-
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin: 0%;
 
 
@@ -73,7 +72,7 @@
 
 .londa_home {
     font-family: Century Gothic;
-    position: fixed;
+    position: relative;
     font-style: normal;
     font-weight: 400;
     text-align: left;
@@ -81,34 +80,33 @@
     line-height: 45px;
     color: #818181;
     padding-top: 0ch;
-    top: 3ch;
+    top: 0ch;
     left: 2ch;
 }
 
 .project-home {
-    position: fixed;
-    padding-top: 6ch;
-    padding-bottom: 1ch; 
-    margin-left: 7ch;
-    text-decoration: none;
-    font-size: 37px;
-    color: #818181;
-    width: 5ch;
-    text-align: center;
-    font-weight: 400;
+    position: relative;
     display: block;
+    padding: 30px 30px 30px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
     transition: 0.3s;
-    text-align: left;
-    z-index: 4;
-
+    text-align: center;
+    z-index: 22;
+    border: none;
+    background: rgba(231, 222, 203, 0);
     border-bottom: 2px solid #818181;
-
+    text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
+    width: 6ch;
+    top: 4ch;
+    left: 5.5ch;
 }
 
 .project-home:hover {
 color:rgba(44, 107, 111, 0.58);
 border-bottom: 2px solid rgba(44, 107, 111, 0.58);
-}
+} */
 
 
 /* width */
@@ -134,21 +132,31 @@ border-bottom: 2px solid rgba(44, 107, 111, 0.58);
     background: rgb(235, 170, 170);
 }
 
-.btn_github_prg{
+.btn_github_prg {
     position: relative;
-    z-index: 22;
-    width: 50ch;
-    height: 5ch;
-    top: 3ch;
-    right: 12ch;
-    border: none;
+    width: 67ch;
+    height: 6ch;
+    top: 4ch;
+    left: 3ch;
+    border: 9px ridge rgba(216, 95, 95, 0);
     background-color:rgba(228, 228, 228, 0);
-    position: relative;
-    text-decoration: underline;
+
+   text-decoration: none;
+    /* border:  2px solid rgb(235, 170, 170); */
     font-size: 30px;
-    color: rgb(235, 170, 170); 
+    color: #818181;
+    border-radius: 2ch;
+    background: rgba(241, 189, 189, 0.253);
+    box-shadow: 0px 4px 4px rgba(196, 69, 40, 0.24);text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
     
 }
+
+.btn_github_prg:hover{
+    color: rgba(58, 129, 134, 0.596);
+    text-shadow: 0px 4px 4px rgba(38, 63, 63, 0.151);
+    
+}
+
 
 @media screen and (max-width: 730px) {
 

@@ -1,8 +1,8 @@
 .side-nav-bar {
-    position: relative;
+    position:relative;
     /* bottom: 55ch; */
-    left: 2ch; 
-    top: 4ch;
+    left: 2ch;
+    top: 0ch;
     height: 500px;
     width: 300px;
     margin: none;
@@ -11,7 +11,8 @@
     background-color: rgba(127, 255, 212, 0);
     display: block;
     flex-direction: column;
-    
+
+
 }
 
 .connect-links {
@@ -19,10 +20,10 @@
     height: 100%;
     width: 100%;
     position: relative;
-    z-index: 22;
+
     top: 5ch;
     left: 6ch;
-    background-color:#f5e2e200;
+    background-color: #f5e2e200;
     /* padding-top: 10px; */
     transition: 0.5s;
     margin: 0%;
@@ -58,7 +59,7 @@
     width: 467px;
     height: 95px;
     right: 1ch;
-    top: -1ch; 
+    top: 1ch;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: 400;
@@ -68,30 +69,51 @@
     text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
 }
 
-.email-img {
+.circle-links {
+    display: flex;
     position: relative;
-    height: 12%;
-    width: 20%;
-    z-index: 22;
-    padding-left: 1ch;
+    flex-direction: row;
+    width: 40ch;
+    height: 12ch;
+    padding-left: 2ch;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email-img {
+    background-image: url("../../Assets/email.png");
+    position: relative;
+    
+    display: block;
+    height: 80px;
+    width: 150px;
+    background-size: contain;
+    padding-left: 2ch;
+    background-repeat: no-repeat;
 }
 
 .github-img {
-    position: relative;
-    height: 12%;
-    width: 20%;
 
-    z-index: 22;
-    padding-left: 3ch;
+    background-image: url("../../Assets/github.png");
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 2ch;
+
 }
 
 .linkedin-img {
+    background-image: url("../../Assets/linkedin.png");
     position: relative;
-    height: 12%;
-    width: 20%;
-
-    z-index: 22;
-    padding-left: 3ch;
+    display: block;
+    height: 80px;
+    width: 150px;
+    background-size: contain;
+    padding-left: 2ch;
+    background-repeat: no-repeat;
 }
 
 
@@ -117,195 +139,69 @@
 
 
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 790px) {
     .side-nav-bar {
-        height: 20px;
-        width: 10px;
-        top: 10px;
+        height: 40%;
+        width: 50%;
+        top: 0px;
+        left: 0ch;
 
     }
 
     .side-nav-bar button {
         font-size: 24px;
-        left: 122px;
+        left: 100px;
+        
     }
 
     button.btn-links {
-        padding: 30px;
-        width: 200px;
+        padding: 10px;
+        width: 99px;
+        height: 78px;
         text-align: center;
+    
     }
 
-    .email-img {
-        height: 10%;
-        width: 15%;
-
+    .londa  {
+       
+        font-size: 44px;
+        top: 1ch;
+   
     }
-
-    .github-img {
-        height: 10%;
-        width: 15%;
-
-    }
-
-    .linkedin-img {
-        height: 10%;
-        width: 15%;
-
+    .circle-links {
+        width: 30ch;
+        height: 3ch;
+        left: 5ch;
+        padding-left: 4ch;
     }
 
     .connect-links {
-        left: 155px;
-        bottom: 600px;
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10ch;
+        width: 37ch;
+        font-size: 16px;
     }
 
-    .about-me-bg {
-        position: relative;
-
-        width: 1014px;
-        height: 641px;
-        left: 63ch;
-        bottom: 185.1ch;
-        background: rgb(231, 222, 203);
-        border-radius: 10px 0px 10px 0px;
-        z-index: 2;
+    .email-img {
+        height: 50px;
+        width: 90px;
+    }
+    
+    .github-img {
+    
+        height: 50px;
+        width: 90px;
+    
+    }
+    
+    .linkedin-img {
+       
+        height: 50px;
+        width: 90px;
+       
     }
 
-
-    .about-me-txt {
-        position: relative;
-        width: 670px;
-        height: 95px;
-        font-family: Century Gothic;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 45px;
-        color: #818181;
-        left: 10%;
-        text-align: left;
-    }
-
-    .close-btn {
-        background-color: #d8343400;
-        position: relative;
-        color: #818181;
-        width: 54px;
-        height: 55px;
-        border: 2px solid #7a7a7a;
-        border-radius: 100%;
-        left: 18ch;
-        top: 2ch;
-        font-size: 40px;
-        z-index: 5;
-    }
-
-    .close-btn-resume {
-        background-color: #81818100;
-        position: relative;
-        color: #818181;
-        width: 54px;
-        height: 55px;
-        border: 2px solid #7a7a7a;
-        border-radius: 100%;
-        left: 20ch;
-        bottom: 196ch;
-        font-size: 40px;
-        z-index: 22;
-
-    }
-
-
-    .react-pdf__Document {
-        width: 0%;
-        height: 0%;
-        background-color: rgb(228, 228, 228);
-        position: relative;
-
-    }
-
-    .react-pdf__Page {
-        top: 2.1ch;
-        right: -10px;
-        position: relative;
-        align-items: left;
-
-    }
-
-    .react-pdf__Page__canvas {
-        left: 24ch;
-        bottom: 325.5ch;
-        position: relative;
-        align-items: center;
-        z-index: 4;
-        border: 5px solid #7a7a7a;
-    }
-
-    .react-pdf__Page__textContent {
-        display: none;
-    }
-
-
-    .top-sqr {
-        display: block;
-        position: relative;
-        width: 666px;
-        height: 838px;
-        left: 20ch;
-        bottom: 133ch;
-        background: rgb(235, 170, 170);
-        border-radius: 10px;
-        z-index: 3;
-        margin: 0%;
-    }
-
-    .btm-sqr {
-        display: block;
-        z-index: 2;
-        position: relative;
-        width: 666px;
-        height: 837px;
-        left: 25ch;
-        bottom: 225ch;
-        background: rgba(44, 106, 111, 0.473);
-        border-radius: 10px;
-        margin: 0%;
-    }
-
-
-    .wrapper-sqr {
-        display: block;
-        z-index: 0;
-        position: relative;
-
-        width: 1600px;
-        height: 1042px;
-        right: 10ch;
-        bottom: 11ch;
-        background: rgb(228, 228, 228);
-        border-radius: 10px 0px 10px 0px;
-        margin: 0%;
-
-    }
-
-    .v-line {
-        position: relative;
-        width: 385.01px;
-        height: 0px;
-        right: 10ch;
-        bottom: 303ch;
-        border: 1px solid #818181;
-        transform: rotate(90deg);
-    }
-
-    .v-line2 {
-        position: relative;
-        width: 385.01px;
-        height: 0px;
-        left: 88ch;
-        bottom: 250ch;
-        border: 1px solid #818181;
-        transform: rotate(90deg);
-    }
+ 
 }

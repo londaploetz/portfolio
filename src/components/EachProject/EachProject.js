@@ -21,13 +21,12 @@ const projectData = [
 ];
 
 const EachProject = () => (
-  <div className="eachProject_section__padding" id="projects">
+  
   
     <div className="each-project-container">
       {projectData.map((item, index) => (
         <Portfolio title={item.title} text={item.text} imageP={item.imageP} link={item.link} key={item.title + index} />
       ))} 
-    </div>
     {}
   </div>
 );
