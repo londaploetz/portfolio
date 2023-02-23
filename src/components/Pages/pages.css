@@ -4,10 +4,9 @@
     display: block;
     background-color: #f5e2e2;
     background-position: center;
-    width: 100%;
     height: 100vh;
-        width: 100vw;
-    background-size: cover;
+    width: 100vw;
+    background-size: contain;
     overflow: hidden;
   }
   
@@ -37,14 +36,6 @@
 }
 
 
-
-
-  @media only screen and (max-width: 750px) {
-    .home {
-      padding: 0px;
-      overflow-y: scroll;
-    }
-    
 /* width */
 ::-webkit-scrollbar {
   width: 12px;
@@ -67,4 +58,37 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(235, 170, 170, 0);
 }
+
+  @media only screen and (max-width: 750px) {
+    .home {
+      padding: 0px;
+      overflow-y: scroll;
+    }
+    .projects {
+      text-align: center;
+      background-color:#f5e2e2;
+      background-position: center;
+      background-size: cover;
+      padding: 10px; 
+      padding-bottom: 33ch;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-y: hidden;
+  
+    }
+  
+    .each-project-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 2ch;
+      text-align: left;
+      left: 2px;
+      top: 44ch;
+      width: 60%;
+      height: 210ch;
+      border-radius: 0%; 
+  }
+    
+
   }

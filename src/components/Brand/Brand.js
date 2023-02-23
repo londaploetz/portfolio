@@ -32,7 +32,7 @@ const Brand = (props) => {
       />
      
         <div className='brand-statement'>
-          <h1 className='brand-txt'> Let's Create Something </h1>
+          <h1 className='brand-txt'> let's create something </h1>
          
           <div className="bg_img_change"></div>
         </div>

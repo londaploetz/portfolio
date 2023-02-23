@@ -117,8 +117,23 @@
 }
 
 
-
-
+.btn-links-projects{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    border: none;
+    margin: 0%;
+    background: rgba(231, 222, 203, 0);
+    text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
+}
+.btn-links-projects:hover{
+    color: rgba(58, 129, 134, 0.58);
+    text-shadow: 0px 4px 4px rgba(38, 63, 63, 0.144);
+}
 
 
 
@@ -135,7 +150,6 @@
         font-size: 18px;
     }
 }
-
 
 
 
