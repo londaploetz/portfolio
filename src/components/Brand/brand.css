@@ -51,11 +51,11 @@
     display: flex;
     animation: changeBg 3s infinite;
     width: 100%;
-    height: 40ch;
+    height: 30%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-size: cover;
+    background-size: contain;
     left: -3ch;
     z-index: 0;
     padding-bottom: 0ch;
@@ -272,7 +272,7 @@
     
     .bg_img_change {
        
-        left: -4ch;
+        left: 4ch;
     }
     
     
