@@ -197,6 +197,11 @@
         width: 37ch;
         font-size: 16px;
     }
+    .btn-links-projects{
+    
+        font-size: 24px;
+        text-align: left;
+    }
 
     .email-img {
         height: 50px;
