@@ -2,7 +2,7 @@
     text-align: center;
     position: relative;
     display: block;
-    background-color: #f5e2e2;
+    background: rgba(255, 236, 236, 0.795);
     background-position: center;
     height: 100vh;
     width: 100vw;
@@ -12,10 +12,10 @@
   
   .projects {
     text-align: center;
-    background-color:#f5e2e2;
+    background: rgba(255, 236, 236, 0.795);
     background-position: center;
     background-size: cover;
-    padding: 20px; 
+    padding: 0px; 
     display: flex;
     flex-wrap: nowrap;
     overflow-y: hidden;
@@ -28,7 +28,7 @@
     flex-direction: column;
     padding: 2ch;
     text-align: left;
-    left: 550px;
+    left: 60ch;
     top: 0px;
     width: 70%;
     height: 200ch;

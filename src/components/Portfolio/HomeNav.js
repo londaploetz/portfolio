@@ -7,7 +7,8 @@ const HomeNav = () => {
       return (
             <div className="homeNav_container">
                   <h1 className='londa'>
-                        Londa Ploetz
+                        londa <br/> 
+                        ploetz
                   </h1>
                   <div className='circle-links'>
                         <a href='mailto:lploetz@hotmail.com'

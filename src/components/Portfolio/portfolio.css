@@ -19,7 +19,7 @@
     width: 80%;
     line-height: 45px;
     border-radius: 2ch;
-    background: rgba(207, 186, 186, 0.164);
+    background: rgba(125, 115, 182, 0.103);
     box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
    
    
@@ -27,7 +27,7 @@
 
 .portfolios-container__portfolio-title {
     font-size: 20px;   
-    font-family: Century Gothic;
+    font-family: 'Coiny', cursive;
     font-style: normal;
     font-weight: 400;
     text-align: left;
@@ -36,12 +36,12 @@
     left: 4ch;
     width: 90%;
     position: relative;
-    text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
+    text-shadow: 0px 4px 4px rgba(238, 146, 200, 0.25);
 }
 
 .portfolios-container__portfolio-title h1 {
     font-weight: 400;   
-    text-decoration: underline 2px;
+  
     width: 30ch;
     text-align: center;
     position: relative;
@@ -60,21 +60,24 @@
 }
 
 .homeNav_container {
-    display: block; 
-    position: fixed;
-    height: 39ch;
+    position:fixed;
+    /* bottom: 55ch; */
+    left: 0ch;
+    top: 0ch;
+    height: 900px;
+    width: 340px;
+    margin: none;
+    padding: 10px;
     z-index: 2;
-
-    left: 4ch;
-    background-color: rgba(177, 19, 19, 0);
-   
-    margin: 0%;
-
+    background: rgba(164, 211, 207, 0.349);
+    display: block;
+    flex-direction: column;
+    box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
 
 }
 
 .londa_home {
-    font-family: Century Gothic;
+
     position: relative;
     font-style: normal;
     font-weight: 400;
@@ -88,27 +91,27 @@
 }
 
 .project-home {
-    position: relative;
     display: block;
-    padding: 30px 30px 30px 32px;
+    padding: 30px 40px 30px 30px;
     text-decoration: none;
     font-size: 30px;
+    font-family: 'Coiny', cursive;
     color: #818181;
+    display: block;
     transition: 0.3s;
     text-align: center;
-    z-index: 22;
+   
     border: none;
+    margin: 25%;
     background: rgba(231, 222, 203, 0);
     border-bottom: 2px solid #818181;
-    text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
-    width: 6ch;
-    top: 4ch;
-    left: 5.5ch;
+    text-shadow: 0px 4px 4px rgba(187, 75, 99, 0.308);
 }
 
 .project-home:hover {
 color:rgba(44, 107, 111, 0.58);
 border-bottom: 2px solid rgba(44, 107, 111, 0.58);
+font-size: 32px;
 } */
 
 
@@ -149,7 +152,7 @@ border-bottom: 2px solid rgba(44, 107, 111, 0.58);
     font-size: 30px;
     color: #818181;
     border-radius: 2ch;
-    background: rgba(241, 189, 189, 0.253);
+    background: rgba(156, 183, 185, 0.253);
     box-shadow: 0px 4px 4px rgba(196, 69, 40, 0.24);text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
     
 }

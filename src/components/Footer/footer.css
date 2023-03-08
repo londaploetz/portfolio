@@ -28,4 +28,13 @@ color: #707070;
     left: 7ch; 
     background-color: #24242400;
     }
+
+
+    @media screen and (max-width: 1400px){
+        
+        .mepic{
+        
+            margin-right: 5%;
+        }
+    }
  
