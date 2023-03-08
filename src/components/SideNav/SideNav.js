@@ -3,6 +3,7 @@ import './sidenav.css';
 import { Link, useLocation } from "react-router-dom";
 import HomeNav from '../Portfolio/HomeNav';
 
+
 const SideNav = (props) => {
 
   const location = useLocation();
@@ -19,7 +20,8 @@ const SideNav = (props) => {
 
       <div className='side-nav-bar'>
         <h1 className='londa'>
-          londa ploetz
+          londa <br/> 
+           ploetz
         </h1>
         <div className='circle-links'>
           <a href='mailto:lploetz@hotmail.com'

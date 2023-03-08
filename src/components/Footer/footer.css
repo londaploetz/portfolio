@@ -1,0 +1,31 @@
+.footer-content {
+    display: flex;
+    flex-direction: COL;
+    justify-content: flex-end;
+    width:50ch; 
+    height: 40ch; 
+   
+}
+.footer-container{
+background-color: rgb(243, 222, 222);
+position: absolute;
+top: 105.5ch;
+width: 100%; 
+height: 5ch; 
+z-index: 2;
+padding-top: 1ch;
+font-style: normal;
+color: #707070;
+}
+
+
+.mepic {
+    width:50ch; 
+    height: 40ch; 
+   
+    position: relative;
+    top: 69ch; 
+    left: 7ch; 
+    background-color: #24242400;
+    }
+ 

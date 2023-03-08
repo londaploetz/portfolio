@@ -7,36 +7,55 @@
    background-position: center;
    width: 100%;
    height: 100%;
-   background-color:#f5e2e2;
+   background: rgba(255, 236, 236, 0.795);
    overflow: hidden;
-   padding: 4ch; 
+   padding: 0ch; 
 }
 
 .brand-statement {
     position: relative;
-    display: flex; 
-    flex-direction: column;
-    width:50%;
-    height: 60%;
-    border-radius: 2ch;
-    background: rgba(207, 186, 186, 0.164);
-    box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
-    top: 11ch;
-    padding-left: 10ch;
-    left: 30ch; 
+    width:240ch;
+    height:100ch;
+  
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+    top: 0ch;
+    padding: 0ch;
+    left: 0ch; 
     margin: 0%;
-    overflow: hidden;
+   
+}
+.bubble{
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:80%;
+  
+    background-image: url("../../Assets/Images/bubble.png"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40ch; 
+    top: 4%;
+    padding: 20%;
+    left: 10ch; 
+    margin: 0%;
 }
 .brand-txt{
     display: flex;
-    font-family: Century Gothic;
+    position: relative;
+    font-family: 'Coiny', cursive;
     font-style: normal;
+    width:80%; 
     font-weight: 400;
-    padding-top: 6ch; 
+    padding-top: 10%; 
     font-size: 50px;
     line-height: 45px;
     color: #707070;
-    padding-left: 2ch;
+    padding-left: 5%;
     text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
     margin: 0%;
 }
@@ -44,22 +63,20 @@
 
 
 
-
-
-
 .bg_img_change {
     display: flex;
-    animation: changeBg 23s infinite;
-    width: 100%;
-    height: 30%;
+    animation: changeBg 14s infinite;
+    width: 80%;
+    height: 20%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-size: cover;
-    left: 0ch;
+    background-size: contain;
+    
     z-index: 0;
-    padding-bottom: 0ch;
-    padding-top: 1ch;
+    padding: 8%;
+    margin: 3ch; 
+    
 }
 
 
@@ -251,6 +268,7 @@
     display: none;
 }
 
+
 @media screen and (max-width: 1400px){
     .brand-statement {
         width:50%;
@@ -261,10 +279,17 @@
         
     }
     .bg_img_change {
-        width:80%;
+        width:70%;
         left: 7ch;
         padding-bottom: 0ch;
         margin-right: 30ch;
+    }
+    .brand-txt{
+      
+    
+        font-size: 34px;
+  
+        margin: 4%;
     }
 }
 
@@ -291,12 +316,13 @@
         padding-left: 0ch;
         left: 8ch; 
         z-index: 0;
+        
        
         
     }
     .brand-txt{
         
-        font-size: 34px;
+        font-size: 30px;
 
     }
 

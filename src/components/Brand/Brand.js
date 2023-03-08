@@ -1,9 +1,11 @@
 import React from 'react';
 import SideNav from '../SideNav/SideNav';
+import Footer from '../Footer/Footer';
 import './brand.css';
 import { useState } from "react";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import resumePDF from "../../Assets/Documents/resume2023.pdf";
+
 
 const Brand = (props) => {
 
@@ -32,10 +34,14 @@ const Brand = (props) => {
       />
      
         <div className='brand-statement'>
+          <div className="bubble"> 
           <h1 className='brand-txt'> let's create something </h1>
-         
-          <div className="bg_img_change"></div>
+
+          <div className="bg_img_change">
+            
+          </div>
         </div>
+     </div>
      
 
       {aboutMe != true ? null : <div className='wrapper-sqr-about-me'>
@@ -62,6 +68,7 @@ const Brand = (props) => {
       </div>
        </div>
       }
+<Footer />
 
     </div>
   )
