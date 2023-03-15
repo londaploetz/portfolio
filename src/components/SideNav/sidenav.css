@@ -1,14 +1,13 @@
 .side-nav-bar {
     position:relative;
-    /* bottom: 55ch; */
     left: 0ch;
     top: 0ch;
-    height: 900px;
+    height: 990px;
     width: 340px;
     margin: none;
     padding: 10px;
     z-index: 2;
-    background: rgba(164, 211, 207, 0.349);
+    background: rgb(185, 210, 211);
     display: block;
     flex-direction: column;
     box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
@@ -179,11 +178,12 @@
 
 @media screen and (max-width: 790px) {
     .side-nav-bar {
-        height: 40%;
-        width: 50%;
+        height: 50%;
+        width: 80ch;
         top: 0px;
         left: 0ch;
-
+     background-color: rgba(240, 248, 255, 0);
+     box-shadow: none; 
     }
 
     .side-nav-bar button {
@@ -202,14 +202,24 @@
 
     .londa  {
        
-        font-size: 44px;
-        top: 1ch;
+        font-size: 49px;
+        top: 0ch;
+        left: 2px;
    
     }
+    .side-nav-bar button:hover {
+    
+        font-size: 24px;
+    }
+    .btn-links-projects:hover{
+
+        font-size: 24px;
+    }
+    
     .circle-links {
         width: 30ch;
         height: 3ch;
-        left: 5ch;
+        left: 9ch;
         padding-left: 4ch;
     }
 

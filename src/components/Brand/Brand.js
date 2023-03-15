@@ -5,7 +5,7 @@ import './brand.css';
 import { useState } from "react";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import resumePDF from "../../Assets/Documents/resume2023.pdf";
-
+import mepic from "../../Assets/Images/mepic.png"
 
 const Brand = (props) => {
 
@@ -68,7 +68,11 @@ const Brand = (props) => {
       </div>
        </div>
       }
-<Footer />
+     <img 
+src ={mepic} 
+className="mepic"
+alt="a drawing of Londa" 
+/>
 
     </div>
   )

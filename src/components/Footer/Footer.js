@@ -4,13 +4,13 @@ import mepic from "../../Assets/Images/mepic.png"
 
 const Footer = () => (
   <div className='footer-content'> 
-    <img 
+    {/* <img 
 src ={mepic} 
 className="mepic"
 alt="a drawing of Londa" 
-/>
+/> */}
     <div className='footer-container'>
-      © Londa Ploetz
+      © Londa Ploetz 2023
     </div>
     </div>
 );

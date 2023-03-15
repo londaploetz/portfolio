@@ -1,18 +1,19 @@
 .footer-content {
     display: flex;
-    flex-direction: COL;
+
     justify-content: flex-end;
-    width:50ch; 
-    height: 40ch; 
+    width:229ch; 
+    height: 10ch; 
+    z-index: -1;
    
 }
 .footer-container{
 background-color: rgb(243, 222, 222);
 position: absolute;
 top: 105.5ch;
-width: 100%; 
-height: 5ch; 
-z-index: 2;
+width: 200ch; 
+height: 6ch; 
+z-index: 1;
 padding-top: 1ch;
 font-style: normal;
 color: #707070;
@@ -25,16 +26,35 @@ color: #707070;
    
     position: relative;
     top: 69ch; 
-    left: 7ch; 
+    left: 0ch; 
     background-color: #24242400;
     }
 
 
-    @media screen and (max-width: 1400px){
+    @media screen and (max-width: 1380px){
         
         .mepic{
-        
-            margin-right: 5%;
+            left: 1%; 
+          
+           
         }
     }
  
+
+    
+
+@media screen and (max-width: 790px) {
+    .footer-content {
+        display: none;
+     
+       
+    }
+ 
+    
+    
+    .mepic {  
+        position: absolute;
+        top: 80ch; 
+        }
+    
+}

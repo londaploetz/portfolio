@@ -33,12 +33,13 @@
     width: 70%;
     height: 200ch;
     border-radius: 0%; 
+   
 }
 
 
 /* width */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 0px;
 }
 
 /* Track */
@@ -66,11 +67,11 @@
     }
     .projects {
       text-align: center;
-      background-color:#f5e2e2;
+      
       background-position: center;
       background-size: cover;
-      padding: 10px; 
-      padding-bottom: 33ch;
+      padding: 0px; 
+      padding-bottom: 10ch;
       display: flex;
       flex-wrap: nowrap;
       overflow-y: hidden;
@@ -78,14 +79,11 @@
     }
   
     .each-project-container {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      padding: 2ch;
+      padding: 3%;
       text-align: left;
-      left: 2px;
+      left: 0px;
       top: 44ch;
-      width: 60%;
+      width: 70%;
       height: 210ch;
       border-radius: 0%; 
   }
