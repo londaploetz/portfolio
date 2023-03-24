@@ -8,20 +8,16 @@ const SideNav = (props) => {
 
   const location = useLocation();
 
+  /// checks whether to display projects link
   if (location.pathname === "/projects") {
-
     return <HomeNav />
   } else {
-
     return (
-
-
-
 
       <div className='side-nav-bar'>
         <h1 className='londa'>
-          londa <br/> 
-           ploetz
+          londa <br />
+          ploetz
         </h1>
         <div className='circle-links'>
           <a href='mailto:lploetz@hotmail.com'

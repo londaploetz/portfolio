@@ -1,9 +1,8 @@
 import React from 'react';
 import Portfolio from '../Portfolio/Portfolio';
-import './eachproject.css';
-import {projectImg01, projectImg02} from './imports.js';
+import {projectImg01, projectImg02, projectImg03} from './imports.js';
 
-
+///save project information to easily change when needed
 const projectData = [
   {
     title: 'News 6 Meet the Team',
@@ -17,12 +16,17 @@ const projectData = [
     imageP: projectImg02, 
     link: "https://github.com/londaploetz/polkadot", 
   },
-
+  {
+    title: 'To-Do',
+    text: 'My todo list is helpful tool to help you keep track of important tasks, using CRUD. This app uses persistant local storage, and has a toggle feature that is persistant through MySQL database. You can create, read, update, and delete both locally and from the databse.',
+    imageP: projectImg03, 
+    link: "https://github.com/londaploetz/to-do", 
+  }
 ];
 
 const EachProject = () => (
   
-  
+  /// display each project's title, text, image, link
     <div className="each-project-container">
       {projectData.map((item, index) => (
         <Portfolio title={item.title} text={item.text} imageP={item.imageP} link={item.link} key={item.title + index} />

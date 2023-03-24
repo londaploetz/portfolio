@@ -1,17 +1,17 @@
 import React from 'react';
 import SideNav from '../SideNav/SideNav';
-import Footer from '../Footer/Footer';
 import './brand.css';
 import { useState } from "react";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import resumePDF from "../../Assets/Documents/resume2023.pdf";
 import mepic from "../../Assets/Images/mepic.png"
 
-const Brand = (props) => {
+const Brand = () => {
 
   const [aboutMe, setAboutMe] = useState(false)
   const [resume, setResume] = useState(false)
 
+  /// changes state based on which link is cliked
   function clickAboutMe() {
     setAboutMe(true)
     setResume(false)
@@ -26,24 +26,24 @@ const Brand = (props) => {
     setAboutMe(false)
     setResume(false)
   }
-  return ( 
+  return (
     <div className="banner">
       <SideNav
         clickAboutMe={clickAboutMe}
         clickResume={clickResume}
       />
-     
-        <div className='brand-statement'>
-          <div className="bubble"> 
+
+      <div className='brand-statement'>
+        <div className="bubble">
           <h1 className='brand-txt'> let's create something </h1>
 
           <div className="bg_img_change">
-            
+
           </div>
         </div>
-     </div>
-     
+      </div>
 
+      
       {aboutMe != true ? null : <div className='wrapper-sqr-about-me'>
 
         <div id="true" className="about-me-bg">
@@ -60,19 +60,19 @@ const Brand = (props) => {
       </div>}
 
       {resume != true ? null : <div className='wrapper-sqr-about-me'>
-      <div id="true" className="resume_container">
+        <div id="true" className="resume_container">
           <Document file={resumePDF}>
             <Page pageNumber={1} />
           </Document>
-        <button className="close-btn-resume" type="button" onClick={closeButton}>x</button>
+          <button className="close-btn-resume" type="button" onClick={closeButton}>x</button>
+        </div>
       </div>
-       </div>
       }
-     <img 
-src ={mepic} 
-className="mepic"
-alt="a drawing of Londa" 
-/>
+      <img
+        src={mepic}
+        className="mepic"
+        alt="a drawing of Londa"
+      />
 
     </div>
   )

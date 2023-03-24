@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const HomeNav = () => {
 
-
+/// homenav with link back to home page
       return (
             <div className="homeNav_container">
                   <h1 className='londa'>

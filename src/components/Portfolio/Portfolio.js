@@ -3,7 +3,7 @@ import './portfolio.css';
 
 
 
-
+///display mapped projcets
 
 const Portfolio = ({ imageP, title, text, link }) => (
 <div>
