@@ -1,0 +1,95 @@
+.home {
+    text-align: center;
+    position: relative;
+    display: block;
+    background: rgba(255, 236, 236, 0.795);
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    overflow: hidden;
+  }
+  
+  .projects {
+    text-align: center;
+    background: rgba(255, 236, 236, 0.795);
+    background-position: center;
+    background-size: cover;
+    height:300ch; 
+    padding: 0px; 
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+
+  }
+
+  .each-project-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2ch;
+    text-align: left;
+    left: 60ch;
+    top: 0px;
+    width: 70%;
+    height: 200ch;
+    border-radius: 0%; 
+   
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color:#f5e2e200;
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(223, 171, 210, 0);
+  border-radius: 100ch;
+  width: 2ch;
+  height: 3ch;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(235, 170, 170, 0);
+}
+
+  @media only screen and (max-width: 750px) {
+    .home {
+      padding: 0px;
+      overflow-y: scroll;
+    }
+    .projects {
+      text-align: center;
+      
+      background-position: center;
+      background-size: cover;
+      padding: 0px; 
+      padding-bottom: 10ch;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-y: hidden;
+  
+    }
+  
+    .each-project-container {
+      padding: 3%;
+      text-align: left;
+      left: 0px;
+      top: 44ch;
+      width: 70%;
+      height: 210ch;
+      border-radius: 0%; 
+  }
+    
+
+  }

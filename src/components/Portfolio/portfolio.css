@@ -1,0 +1,241 @@
+.images {
+    height: 25ch;
+    width: 45ch;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.58);
+    border-radius: 2%;
+    left: 8ch;
+    align-items: center;
+}
+
+.portfolios-container__portfolio {
+    color: rgb(107, 108, 109);
+    font-size: 20px;
+    color: #818181;
+    display: table;
+    margin-top: 8ch;
+    text-align: left;
+    height: 70ch;
+    width: 80%;
+    line-height: 45px;
+    border-radius: 2ch;
+    background-color: rgba(184, 207, 236, 0.473);
+    box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
+}
+
+.portfolios-container__portfolio-title {
+    font-size: 20px;
+    font-family: 'Coiny', cursive;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    color: #818181;
+    line-height: 45px;
+    left: 4ch;
+    width: 90%;
+    position: relative;
+    text-shadow: 0px 4px 4px rgba(238, 146, 200, 0.25);
+}
+
+.portfolios-container__portfolio-title h1 {
+    font-weight: 400;
+    width: 30ch;
+    text-align: center;
+    position: relative;
+}
+
+.portfolios-container_portfolio-text p {
+    position: relative;
+    height: 12ch;
+    width: 54ch;
+    left: 5ch;
+    width: 90%;
+    overflow: hidden;
+}
+
+.homeNav_container {
+    position: fixed;
+    /* bottom: 55ch; */
+    left: 0ch;
+    top: 0ch;
+    height: 900px;
+    width: 340px;
+    margin: none;
+    padding: 10px;
+    z-index: 2;
+    background: rgba(164, 211, 207, 0.349);
+    display: block;
+    flex-direction: column;
+    box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
+}
+
+.londa_home {
+
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    font-size: 66px;
+    line-height: 45px;
+    color: #818181;
+    padding-top: 0ch;
+    top: 0ch;
+    left: 2ch;
+}
+
+.project-home {
+    display: block;
+    padding: 30px 40px 30px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Coiny', cursive;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    border: none;
+    margin: 25%;
+    background: rgba(231, 222, 203, 0);
+    border-bottom: 2px solid #818181;
+    text-shadow: 0px 4px 4px rgba(187, 75, 99, 0.308);
+}
+
+.project-home:hover {
+    color: rgba(44, 107, 111, 0.58);
+    border-bottom: 2px solid rgba(44, 107, 111, 0.58);
+    font-size: 32px;
+}
+
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #f5e2e2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(223, 171, 210, 0);
+    border-radius: 100ch;
+    width: 2ch;
+    height: 3ch;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(235, 170, 170);
+}
+
+.btn_github_prg {
+    position: relative;
+    width: 67ch;
+    height: 6ch;
+    top: 4ch;
+    left: 3ch;
+    border: 9px ridge rgba(216, 95, 95, 0);
+    background-color: rgba(228, 228, 228, 0);
+
+    text-decoration: none;
+    /* border:  2px solid rgb(235, 170, 170); */
+    font-size: 30px;
+    color: #818181;
+    border-radius: 2ch;
+    background-color: rgba(184, 207, 236, 0);
+text-decoration: underline;
+    text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
+
+}
+
+.btn_github_prg:hover {
+    color: rgba(58, 129, 134, 0.596);
+    text-shadow: 0px 4px 4px rgba(38, 63, 63, 0.151);
+
+}
+
+
+@media screen and (max-width: 790px) {
+
+    .images {
+        height: 60%;
+        width: 60%;
+        border-radius: 2%;
+        left: 8ch;
+    }
+
+    .portfolios-container__portfolio {
+        margin-bottom: 3ch;
+        margin-top: 0ch;
+        width: 60%;
+        height: 60ch;
+        padding: 2ch;
+    }
+
+    .portfolios-container__portfolio-title {
+        font-size: 20px;
+        left: 0ch;
+
+    }
+
+    .portfolios-container__portfolio-title h1 {
+        width: 15ch;
+
+    }
+
+    .portfolios-container_portfolio-text p {
+        position: relative;
+        height: 12ch;
+        width: 100%;
+        left: 0ch;
+        word-wrap: break-word;
+
+    }
+
+    .homeNav_container {
+        display: block;
+        position: sticky;
+        height: 20ch;
+        width: 0ch;
+        z-index: 2;
+        left: 0ch;
+        bottom: 190ch;
+        background-color: rgba(17, 17, 17, 0);
+        margin: 0%;
+
+
+    }
+
+    .londa_home {
+        top: 1ch;
+        left: 0ch;
+    }
+
+    .project-home {
+       
+        height: 2ch;
+        width: 5ch;
+        font-size: 16px;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 9ch;
+        margin-top: 1ch;
+
+    }
+    .project-home:hover {
+        color: rgba(44, 107, 111, 0.58);
+        border-bottom: 2px solid rgba(44, 107, 111, 0.58);
+        font-size: 24px;
+    }
+   
+
+    .btn_github_prg {
+
+        font-size: 24px;
+    }
+
+
+}

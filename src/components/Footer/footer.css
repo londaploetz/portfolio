@@ -1,0 +1,60 @@
+.footer-content {
+    display: flex;
+
+    justify-content: flex-end;
+    width:229ch; 
+    height: 10ch; 
+    z-index: -1;
+   
+}
+.footer-container{
+background-color: rgb(243, 222, 222);
+position: absolute;
+top: 105.5ch;
+width: 200ch; 
+height: 6ch; 
+z-index: 1;
+padding-top: 1ch;
+font-style: normal;
+color: #707070;
+}
+
+
+.mepic {
+    width:50ch; 
+    height: 40ch; 
+   
+    position: relative;
+    top: 69ch; 
+    left: 0ch; 
+    background-color: #24242400;
+    }
+
+
+    @media screen and (max-width: 1380px){
+        
+        .mepic{
+            left: 1%; 
+          
+           
+        }
+    }
+ 
+
+    
+
+@media screen and (max-width: 790px) {
+    .footer-content {
+        display: none;
+     
+       
+    }
+ 
+    
+    
+    .mepic {  
+        position: absolute;
+        top: 80ch; 
+        }
+    
+}
