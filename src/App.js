@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from "./components/Pages/Home"; 
 import Projects from "./components/Pages/Projects"; 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes> 
        <Route exact path="/Projects" element={<Projects />} />
        <Route  exact path="/Home" element={<Home />} />
@@ -14,7 +14,7 @@ function App() {
  </Routes>
 
  
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }
