@@ -15,15 +15,13 @@
 .brand-statement {
     position: relative;
     width:240ch;
-    height:100ch;
+    height:90ch;
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row;
     
     background-size: cover;
     background-repeat: no-repeat;
-   
-
     top: 0ch;
     padding: 0ch;
     left: 0ch; 
@@ -33,12 +31,13 @@
 .bubble{
     position: relative;
     display: block; 
-    width:80%;
+    width:70%;
+    height: 100%;
     background-image: url("../../Assets/Images/bubble.png"); 
     background-size: contain;
     background-repeat: no-repeat;
     height: 40ch; 
-    top: 10ch;
+    top: 0ch;
     padding: 20%;
     left: 14ch; 
     margin: 0%;

@@ -1,11 +1,12 @@
 .images {
-    height: 25ch;
-    width: 45ch;
+    height: 25%;
+    width: 80%;
     position: relative;
     box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.58);
     border-radius: 2%;
-    left: 8ch;
+    left: 9%;
     align-items: center;
+    margin-top: 2ch;
 }
 
 .portfolios-container__portfolio {
@@ -39,7 +40,7 @@
 
 .portfolios-container__portfolio-title h1 {
     font-weight: 400;
-    width: 30ch;
+    width: 100%;
     text-align: center;
     position: relative;
 }
@@ -58,12 +59,12 @@
     /* bottom: 55ch; */
     left: 0ch;
     top: 0ch;
-    height: 900px;
+    height: 100%;
     width: 340px;
     margin: none;
     padding: 10px;
     z-index: 2;
-    background: rgba(164, 211, 207, 0.349);
+    background: rgb(185, 210, 211);
     display: block;
     flex-direction: column;
     box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
@@ -133,20 +134,18 @@
 
 .btn_github_prg {
     position: relative;
-    width: 67ch;
-    height: 6ch;
-    top: 4ch;
-    left: 3ch;
+    display: inline;
+    text-align: center;
+    padding: 1ch; 
+    left: 10%;
     border: 9px ridge rgba(216, 95, 95, 0);
     background-color: rgba(228, 228, 228, 0);
-
     text-decoration: none;
-    /* border:  2px solid rgb(235, 170, 170); */
     font-size: 30px;
     color: #818181;
     border-radius: 2ch;
     background-color: rgba(184, 207, 236, 0);
-text-decoration: underline;
+    text-decoration: underline;
     text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
 
 }
@@ -161,10 +160,10 @@ text-decoration: underline;
 @media screen and (max-width: 790px) {
 
     .images {
-        height: 60%;
-        width: 60%;
+        height: 80%;
+        width: 80%;
         border-radius: 2%;
-        left: 8ch;
+        left: 3ch;
     }
 
     .portfolios-container__portfolio {
@@ -235,6 +234,10 @@ text-decoration: underline;
     .btn_github_prg {
 
         font-size: 24px;
+        left: 1ch;
+        text-align: right;
+        padding: 3ch;
+        
     }
 
 
