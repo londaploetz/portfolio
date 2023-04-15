@@ -17,7 +17,7 @@ function Home() {
 
     return (
  
-      <div className="container">
+      <div className="spinner-container">
         {loading ? (
           <div className="loader-container">
             <div className="spinner"></div>

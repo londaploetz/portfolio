@@ -1,13 +1,12 @@
-
 .footer-container {
     background-color: rgb(243, 222, 222);
-    position: fixed;
-    left:0;
-    bottom:0;
-    right:0;
-    height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
     color: #707070;
 }
+
 .copyright {
     position: relative;
     text-align: center;
@@ -18,7 +17,6 @@
 .mepic {
     width: 50ch;
     height: 40ch;
-
     position: relative;
     top: 69ch;
     left: 0ch;

@@ -3,15 +3,14 @@
     position: relative;
     background: rgb(255, 236, 236);
     background-position: center;
-    display: flex;
     flex-wrap: nowrap;
     background-size: cover;
     width: 100%;
     height: 100%;
-    overflow: hidden;
     flex-wrap: nowrap;
     padding: 0px; 
     overflow: hidden;
+    min-height: 100vh;
   }
   
   .projects {
@@ -74,12 +73,12 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  background: rgb(184, 217, 223);
+  background: rgb(185, 210, 211);
   z-index: 1;
 }
 
 .spinner {
-  color: rgb(224, 197, 220);
+  color: rgb(252, 218, 218);
   font-size: 30px;
   width: 1em;
   height: 1em;
@@ -143,17 +142,14 @@
   @media only screen and (max-width: 750px) {
     .home {
       padding: 0px;
-      overflow-y: scroll;
+      
     }
     .projects {
       text-align: center;
-      
       background-position: center;
       background-size: cover;
       padding: 0px; 
       padding-bottom: 10ch;
-      display: flex;
-      flex-wrap: nowrap;
       overflow-y: hidden;
   
     }

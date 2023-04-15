@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import mepic from "../../Assets/Images/mepic.png"
+
 
 const Footer = () => (
 
