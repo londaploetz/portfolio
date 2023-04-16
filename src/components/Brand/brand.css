@@ -447,16 +447,14 @@
 
     .about-me-bg {
         position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 65%;
-        height: 92%;
+        height: 100%;
         top: 37ch;
         padding-left: 8ch;
         padding-right: 3ch;
         left: 2ch;
         margin: 0%;
-        overflow: s;
+
     }
 
 
@@ -467,12 +465,12 @@
 
 
     .close-btn {
-        margin-right: 2ch;
         width: 24px;
         height: 26px;
         top: 20px;
         font-size: 14px;
         z-index: 9;
+        border-radius: 10%;
     }
 
     .wrapper-sqr-about-me {
@@ -480,9 +478,10 @@
         right: 0ch;
         z-index: 1;
         position: absolute;
-        height: 1000px;
-        width: 99%;
+        height: 1444px;
+        width: 100%;
         overflow: visible;
+        align-items: center;
         background: rgb(247, 227, 227);
     }
 
@@ -508,13 +507,17 @@
 
 
     .close-btn-resume {
-        margin-right: 2ch;
         width: 24px;
         height: 26px;
         top: 360px;
         font-size: 14px;
         left: 40px;
         z-index: 9;
+        background-color: #ffe60500;
+        position: absolute;
+        color: #7a7a7a;
+        border: 2px solid #7a7a7a;
+        border-radius: 10%;
     }
 
 
