@@ -56,7 +56,6 @@
 
 .homeNav_container {
     position: fixed;
-    /* bottom: 55ch; */
     left: 0ch;
     top: 0ch;
     height: 100%;
@@ -220,7 +219,7 @@
         font-size: 16px;
         font-size: 24px;
         text-align: center;
-        margin-left: 9ch;
+        margin-left: 9.3ch;
         margin-top: 1ch;
 
     }
@@ -279,8 +278,16 @@
 
     .homeNav_container {
       
-        position: relative; 
-        left: -6ch;
+        position: relative;
+        left: -3.5ch;
+        text-align: center;
+        top: 0ch;
+        margin: none;
+        padding: 0px;
+        z-index: 2;
+        display: block;
+        flex-direction: column;
+        box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
 
 
     }
