@@ -64,7 +64,8 @@ const Brand = () => {
           <button className="close-btn-resume" type="button" onClick={closeButton}>x</button>
           <embed className="pdf-resume" 
           src={require("../../Assets/Documents/resume2023.pdf")} width="800px" height="700px" />
-          <p class="mobile-download">Looks like you're looking at this screen on mobile. Download the PDF 
+          <p class="mobile-download">Looks like you're looking at this screen on mobile. Download the PDF  
+          <br></br>
           <a id="mobile-download-here" target="_blank" href="https://drive.google.com/file/d/12N943zZQlYcDx3bUVrzcxCSp4YP6hs8v/view?usp=sharing" >here</a>
           </p>
         </div>

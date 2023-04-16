@@ -155,9 +155,9 @@
     }
   
     .each-project-container {
-      padding: 3%;
+      padding: 0;
       text-align: left;
-      left: 0px;
+      left: 5%;
       top: 44ch;
       width: 100%;
       height: 210ch;
@@ -168,11 +168,21 @@
   
 @media screen and (max-width: 540px){
   .projects {
-
-    padding: 0px; 
-    padding-bottom: 0;
+ 
+    overflow-y: scroll;
+    display: block;
     height: 100%;
     overflow-y: scroll;
 
   }
+  .each-project-container {
+    padding-bottom: 2ch;
+   align-items: center;
+    top: 44ch;
+    width: 100%;
+    height: 210ch;
+    border-radius: 0%;   
+    top: 200px;
+    padding-bottom: 120px;
+}
 }

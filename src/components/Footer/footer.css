@@ -5,6 +5,7 @@
     width: 100%;
     height: 2.5rem;
     color: #707070;
+    z-index: 2; 
 }
 
 .copyright {
@@ -15,14 +16,15 @@
 }
 
 .mepic {
-    width: 50ch;
-    height: 40ch;
-
+    width: 60ch;
+    height: 50ch;
     position: relative;
-    top: 69ch;
+    top: 71ch;
     left: 0ch;
     z-index: 0;
     background-color: #24242400;
+    bottom: 0;
+
 }
 
 
@@ -30,7 +32,9 @@
 
     .mepic {
         left: 1%;
-
+        width: 50ch;
+        height: 40ch;
+        top: 80ch;
 
     }
 }
@@ -50,6 +54,19 @@
     .mepic {
         position: absolute;
         top: 80ch;
+    }
+
+}
+@media screen and (max-width: 550px){
+    .mepic {
+        position: absolute;
+        top: 73ch;
+       
+    }
+    .footer-container {
+        display: none;
+
+
     }
 
 }

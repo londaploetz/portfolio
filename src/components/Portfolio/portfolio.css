@@ -254,9 +254,12 @@
     .portfolios-container__portfolio {
         margin-bottom: 3ch;
         margin-top: 0ch;
-        width: 60%;
         height: 45ch;
-        padding: 2ch;
+        padding: 1ch;
+        text-align: left;
+        width: 80%;
+           
+    
         
     }
 
@@ -277,7 +280,7 @@
     .homeNav_container {
       
         position: relative; 
-        left: -4.5ch;
+        left: -6ch;
 
 
     }

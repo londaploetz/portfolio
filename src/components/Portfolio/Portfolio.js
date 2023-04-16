@@ -6,7 +6,7 @@ import './portfolio.css';
 ///display mapped projcets
 
 const Portfolio = ({ imageP, title, text, link, live }) => (
-<div>
+
   <div className="portfolios-container__portfolio">
     <div className="portfolios-container__portfolio-title">
       <h1>{title}</h1>
@@ -25,7 +25,7 @@ const Portfolio = ({ imageP, title, text, link, live }) => (
     </div>
   
   </div>
-  </div>
+  
 );
 
 export default Portfolio;

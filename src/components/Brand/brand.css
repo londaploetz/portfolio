@@ -6,7 +6,7 @@
     flex-direction: row;
     background-position: center;
     width: 100%;
-    height: 100%;
+    height: 120ch;
     background: rgba(255, 236, 236, 0.795);
     overflow: hidden;
     padding: 0ch;
@@ -19,7 +19,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
     background-size: cover;
     background-repeat: no-repeat;
     top: 0ch;
@@ -150,7 +149,7 @@
     background-color: #ffe60500;
     position: absolute;
     margin-right: 2ch;
-    color: #818181;
+    color: #7a7a7a;
     width: 54px;
     height: 55px;
     border: 2px solid #7a7a7a;
@@ -165,13 +164,13 @@
 }
 
 .wrapper-sqr-about-me {
-    top: 1ch;
+    top: 0ch;
     right: 0ch;
     z-index: 1;
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    height: 900px;
+    height: 100%;
     width: 100%;
     background: rgb(255, 236, 236);
     border-radius: 10px 0px 10px 0px;
@@ -238,7 +237,7 @@
 .pdf-resume {
     width: 75ch;
     height: 100ch;
-
+    top: 5ch;
     position: relative;
     left: 50ch;
     padding-left: 10%;
@@ -249,27 +248,6 @@
 
 }
 
-
-
-.react-pdf__Page__canvas {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    display: block;
-    align-items: center;
-    z-index: 2;
-    left: 74ch;
-    top: 3ch;
-    border-radius: 2ch;
-    background: rgba(207, 186, 186, 0.164);
-    border: 13px solid rgba(184, 207, 236, 0.473);
-    ;
-    box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
-}
-
-.react-pdf__Page__textContent {
-    display: none;
-}
 
 
 @media screen and (max-width: 1400px) {
@@ -309,7 +287,7 @@
         flex-direction: row;
         background-position: center;
         width: 100%;
-        height: 100ch;
+        height: 130ch;
         background-color: #f5e2e2;
         overflow-y: scroll;
         padding: 0h;
@@ -340,11 +318,12 @@
         display: flex;
         flex-direction: column;
         width: 65%;
-        height: 65%;
+        height: 95%;
         top: 35ch;
         padding-left: 8ch;
         padding-right: 2ch;
         left: 3ch;
+        padding-bottom: 2ch;
         margin: 0%;
         overflow: hidden;
 
@@ -401,8 +380,8 @@
 
 
     .close-btn-resume {
-        color: #242424;
-        border: 2px solid #414040;
+        color: #7a7a7a;
+        border: 2px solid #7a7a7a;
         left: 7ch;
         bottom: 54ch;
         z-index: 5;
@@ -435,23 +414,23 @@
 }
 
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 550px) {
     .banner {
         flex-wrap: wrap;
         flex-direction: row;
         background-position: center;
         width: 100%;
-        height: 105ch;
+        height: 130ch;
         background-color: #f5e2e2;
         overflow-y: scroll;
-        padding: 0h;
+        padding: 0;
         padding-bottom: 0ch;
     }
 
     .brand-statement {
         position: absolute;
         width: 70%;
-        height: 90ch;
+        height: 100%;
         top: 45ch;
         padding-left: 0ch;
         left: 8ch;
@@ -477,7 +456,7 @@
         padding-right: 3ch;
         left: 2ch;
         margin: 0%;
-        overflow: hidden;
+        overflow: s;
     }
 
 
@@ -509,7 +488,7 @@
 
     .bubble {
         top: 0ch;
-        left: -5ch;
+        left: -8ch;
         margin: 2%;
     }
 
@@ -543,10 +522,10 @@
         position: absolute;
         display: block;
         top: 20ch;
-        width: 17ch;
+        width: 60%;
         height: 20ch;
-        left: 1ch;
-        padding: 3ch;
+        left: 6%;
+        padding: 13%;
         word-wrap: break-word;
         font-family: Century Gothic;
         font-style: normal;
