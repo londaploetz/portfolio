@@ -21,6 +21,7 @@
     position: relative;
     top: 69ch;
     left: 0ch;
+    z-index: 0;
     background-color: #24242400;
 }
 

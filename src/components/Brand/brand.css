@@ -167,7 +167,7 @@
 .wrapper-sqr-about-me {
     top: 1ch;
     right: 0ch;
-    z-index: 0;
+    z-index: 1;
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -220,39 +220,36 @@
 
 
 .close-btn-resume {
+
     background-color: #81818100;
     position: absolute;
-    color: #242424;
+    color: #00000000;
     width: 30px;
-    border: 2px solid #414040;
+    border: 2px solid #41404000;
     border-radius: 100%;
     left: 107ch;
     bottom: 75ch;
     font-size: 20px;
-    z-index: 2;
+    z-index: -1;
 
 }
 
 
-.react-pdf__Document {
-    width: 0%;
-    height: 0%;
-    background-color: rgb(228, 228, 228);
-    position: relative;
-    right: 40ch;
+.pdf-resume {
+    width: 75ch;
+    height: 100ch;
 
-}
-
-.react-pdf__Page {
     position: relative;
+    left: 50ch;
+    padding-left: 10%;
+    position: fixed;
     display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 2ch;
-    margin: 0%;
-    overflow: auto;
+    align-items: center;
+
 
 }
+
+
 
 .react-pdf__Page__canvas {
     width: 100%;
@@ -298,12 +295,10 @@
     }
 
     .brand-txt {
-
-
         font-size: 34px;
-
         margin: 4%;
     }
+  
 }
 
 
@@ -406,56 +401,39 @@
 
 
     .close-btn-resume {
-        left: 5ch;
+        color: #242424;
+        border: 2px solid #414040;
+        left: 7ch;
         bottom: 54ch;
         z-index: 5;
     }
 
-
-    .react-pdf__Document {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(228, 228, 228, 0);
-        position: absolute;
-        left: 4ch;
-
-    }
-
-    .react-pdf__Page {
-        position: absolute;
-        width: 100%;
-        height: 96ch;
-        top: 35ch;
-        padding-left: 0ch;
-        left: -2ch;
-        margin: 0%;
-        overflow: hidden;
-    }
-
-    .react-pdf__Page__canvas {
-
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100ch;
-        top: 3ch;
-        padding-left: 0ch;
-        left: 0ch;
-        margin: 0%;
-        overflow: scroll;
-        z-index: 3;
-
-    }
-
-    .resume.container {
-        overflow-y: scroll;
-
-    }
-
-    .react-pdf__Page__textContent {
+    .pdf-resume{
         display: none;
     }
+
+    .mobile-download {
+        position: absolute;
+        display: block;
+        top: 20ch;
+        width: 17ch;
+        height: 20ch;
+        left:4ch;
+        padding: 3ch;
+        word-wrap: break-word;
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 45px;
+        color: #818181;
+        border-radius: 2ch;
+        background: rgba(184, 207, 236, 0.473);
+        box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
+
+    }
 }
+
 
 @media screen and (max-width: 540px) {
     .banner {
@@ -482,6 +460,9 @@
 
     .brand-txt {
         font-size: 29px;
+    }
+    .pdf-resume{
+        display: none;
     }
 
 
@@ -553,41 +534,18 @@
         height: 26px;
         top: 360px;
         font-size: 14px;
+        left: 40px;
         z-index: 9;
     }
 
 
-    .react-pdf__Document {
-        display: none;
-
-    }
-
-    .react-pdf__Page {
-        display: none;
-    }
-
-    .react-pdf__Page__canvas {
-
-        display: none;
-
-    }
-
-    .resume.container {
-        display: none;
-
-    }
-
-    .react-pdf__Page__textContent {
-        display: none;
-    }
-
     .mobile-download {
-        position: relative;
+        position: absolute;
         display: block;
         top: 20ch;
         width: 17ch;
         height: 20ch;
-        left: -1ch;
+        left: 1ch;
         padding: 3ch;
         word-wrap: break-word;
         font-family: Century Gothic;

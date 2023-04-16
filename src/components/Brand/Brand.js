@@ -43,7 +43,7 @@ const Brand = () => {
         </div>
       </div>
 
-      
+
       {aboutMe != true ? null : <div className='wrapper-sqr-about-me'>
 
         <div id="true" className="about-me-bg">
@@ -61,13 +61,15 @@ const Brand = () => {
 
       {resume != true ? null : <div className='wrapper-sqr-about-me'>
         <div id="true" className="resume_container">
-          <Document file={resumePDF}>
-            <Page pageNumber={1} />
-          </Document>
           <button className="close-btn-resume" type="button" onClick={closeButton}>x</button>
-          <p class="mobile-download">Looks like you're looking at this screen on mobile. Download the PDF <a id="mobile-download-here" target="_blank" href="https://drive.google.com/file/d/12N943zZQlYcDx3bUVrzcxCSp4YP6hs8v/view?usp=sharing">here</a></p>
+          <embed className="pdf-resume" 
+          src={require("../../Assets/Documents/resume2023.pdf")} width="800px" height="700px" />
+          <p class="mobile-download">Looks like you're looking at this screen on mobile. Download the PDF 
+          <a id="mobile-download-here" target="_blank" href="https://drive.google.com/file/d/12N943zZQlYcDx3bUVrzcxCSp4YP6hs8v/view?usp=sharing" >here</a>
+          </p>
         </div>
       </div>
+
       }
       <img
         src={mepic}
