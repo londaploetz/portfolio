@@ -1,64 +1,69 @@
 .banner {
-   text-align: center;
-   position: relative;
-   display: flex;
-   flex-wrap: nowrap;
-   flex-direction: row;
-   background-position: center;
-   width: 100%;
-   height: 100%;
-   background: rgba(255, 236, 236, 0.795);
-   overflow: hidden;
-   padding: 0ch; 
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 236, 236, 0.795);
+    overflow: hidden;
+    padding: 0ch;
 }
 
 .brand-statement {
     position: relative;
-    width:240ch;
-    height:90ch;
-    display: flex; 
+    width: 240ch;
+    height: 90ch;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
+
     background-size: cover;
     background-repeat: no-repeat;
     top: 0ch;
     padding: 0ch;
-    left: 0ch; 
+    left: 0ch;
     margin: 0%;
-   
+
 }
-.bubble{
+
+.bubble {
     position: relative;
-    display: block; 
-    width:70%;
+    display: block;
+    width: 70%;
     height: 100%;
-    background-image: url("../../Assets/Images/bubble.png"); 
+    background-image: url("../../Assets/Images/bubble.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 40ch; 
+    height: 40ch;
     top: 0ch;
     padding: 20%;
-    left: 14ch; 
+    left: 14ch;
     margin: 0%;
 }
-.brand-txt{
+
+.brand-txt {
     display: flex;
     position: relative;
     font-family: 'Coiny', cursive;
     font-style: normal;
-    width:80%; 
+    width: 80%;
     font-weight: 400;
-    padding-top: 0%; 
+    padding-top: 0%;
     font-size: 50px;
     line-height: 45px;
     color: #707070;
     padding-left: 5%;
     text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
     margin: 0%;
-    top:0%; 
+    top: 0%;
 }
 
+.mobile-download {
+    display: none;
+}
 
 
 
@@ -71,12 +76,12 @@
     background-position: center;
     position: relative;
     background-size: contain;
-    
+
     z-index: 0;
     padding: 8%;
-    margin-left: 2%; 
-    margin-bottom: 6%; 
-    
+    margin-left: 2%;
+    margin-bottom: 6%;
+
 }
 
 
@@ -107,6 +112,7 @@
 
         background-image: url("../../Assets/Images/amazing5.png")
     }
+
     50% {
 
         background-image: url("../../Assets/Images/amazing6.png")
@@ -131,6 +137,7 @@
 
         background-image: url("../../Assets/Images/amazing10.png")
     }
+
     90% {
 
         background-image: url("../../Assets/Images/amazing11.png")
@@ -138,6 +145,7 @@
 
 
 }
+
 .close-btn {
     background-color: #ffe60500;
     position: absolute;
@@ -153,39 +161,39 @@
     z-index: 5;
     word-wrap: break-word;
     text-shadow: 0px 3px 4px rgba(202, 52, 52, 0.25);
-    
+
 }
 
 .wrapper-sqr-about-me {
-    top: 1ch; 
+    top: 1ch;
     right: 0ch;
     z-index: 0;
-    position:fixed;
+    position: fixed;
     display: flex;
     justify-content: flex-end;
-    height:900px;
+    height: 900px;
     width: 100%;
     background: rgb(255, 236, 236);
     border-radius: 10px 0px 10px 0px;
     overflow: hidden;
-   
+
 }
 
 .about-me-bg {
     position: absolute;
-    display: block; 
+    display: block;
     flex-direction: column;
-    width:50%;
+    width: 50%;
     height: 75%;
     border-radius: 2ch;
     background: rgba(184, 207, 236, 0.473);
     box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
     top: 10ch;
     padding-left: 10ch;
-    left: 65ch; 
+    left: 65ch;
     margin: 0%;
     overflow: hidden;
-  
+
 }
 
 .about-me-txt {
@@ -202,7 +210,7 @@
     font-size: 28px;
     line-height: 45px;
     color: #818181;
-    top: 60px; 
+    top: 60px;
     left: 0px;
     text-align: left;
     padding-right: 2ch;
@@ -237,27 +245,28 @@
 
 .react-pdf__Page {
     position: relative;
-    display: block; 
-    width:100%;
+    display: block;
+    width: 100%;
     height: 100%;
     border-radius: 2ch;
     margin: 0%;
     overflow: auto;
-    
+
 }
 
 .react-pdf__Page__canvas {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     position: fixed;
     display: block;
     align-items: center;
     z-index: 2;
-    left:74ch; 
-    top:3ch; 
+    left: 74ch;
+    top: 3ch;
     border-radius: 2ch;
     background: rgba(207, 186, 186, 0.164);
-    border: 13px solid  rgba(184, 207, 236, 0.473);;
+    border: 13px solid rgba(184, 207, 236, 0.473);
+    ;
     box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
 }
 
@@ -266,91 +275,93 @@
 }
 
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
     .brand-statement {
- 
+
         padding-left: 0ch;
-     
+
     }
-   
-    .bubble{
-        width:70ch;
+
+    .bubble {
+        width: 70ch;
         padding-left: 0ch;
-        padding: 20%; 
-        left: 15ch; 
-        top: 10ch; 
+        padding: 20%;
+        left: 15ch;
+        top: 10ch;
     }
 
     .bg_img_change {
-        width:70%;
+        width: 70%;
         left: 7ch;
         padding-bottom: 0ch;
         margin-right: 30ch;
     }
-    .brand-txt{
-      
-    
+
+    .brand-txt {
+
+
         font-size: 34px;
-  
+
         margin: 4%;
     }
 }
 
 
 @media screen and (max-width: 790px) {
-    
+
     .banner {
-       flex-wrap: wrap;
-       flex-direction: row;
-       background-position: center;
-       width: 100%;
-       height: 100ch;
-       background-color:#f5e2e2;
-       overflow-y: scroll;
-       padding: 0h; 
-       padding-bottom: 12ch;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-position: center;
+        width: 100%;
+        height: 100ch;
+        background-color: #f5e2e2;
+        overflow-y: scroll;
+        padding: 0h;
+        padding-bottom: 12ch;
     }
-    
+
     .brand-statement {
         position: absolute;
-        width:70%;
+        width: 70%;
         height: 60ch;
         top: 45ch;
         padding-left: 0ch;
-        left: 8ch; 
+        left: 8ch;
         z-index: 0;
-        
-       
-        
+
+
+
     }
-    .brand-txt{
-        
+
+    .brand-txt {
+
         font-size: 29px;
     }
 
-        
+
     .about-me-bg {
         position: absolute;
-        display: flex; 
+        display: flex;
         flex-direction: column;
-        width:65%;
+        width: 65%;
         height: 65%;
         top: 35ch;
         padding-left: 8ch;
         padding-right: 2ch;
-        left: 3ch; 
+        left: 3ch;
         margin: 0%;
         overflow: hidden;
-      
+
     }
- 
+
 
     .bg_img_change {
-       bottom: 3.4ch;
+        bottom: 3.4ch;
         left: 4ch;
     }
-    
-    
+
+
     .close-btn {
         position: absolute;
         margin-right: 2ch;
@@ -358,26 +369,27 @@
         height: 34px;
         font-size: 24px;
         z-index: 5;
-        
+
     }
-    
+
     .wrapper-sqr-about-me {
-        top: 10ch; 
+        top: 10ch;
         right: 0ch;
         z-index: 1;
-        position:absolute;
-        height:990px;
+        position: absolute;
+        height: 990px;
         width: 99%;
-       overflow: visible;
-       background: rgb(247, 227, 227);
-       
+        overflow: visible;
+        background: rgb(247, 227, 227);
+
     }
-    .bubble{
+
+    .bubble {
         top: 0ch;
-        left: -5ch; 
+        left: -5ch;
         margin: 2%;
     }
-    
+
 
     .about-me-txt {
         position: relative;
@@ -386,67 +398,207 @@
         width: 98%;
         height: 170px;
         font-size: 21px;
-        top: 20px; 
+        top: 20px;
         left: 0px;
         padding-right: 3ch;
         z-index: 3;
     }
-    
-    
+
+
     .close-btn-resume {
         left: 5ch;
         bottom: 54ch;
         z-index: 5;
     }
-    
-    
+
+
     .react-pdf__Document {
         width: 100%;
         height: 100%;
         background-color: rgba(228, 228, 228, 0);
         position: absolute;
-        left:4ch;
-    
+        left: 4ch;
+
     }
-    
+
     .react-pdf__Page {
         position: absolute;
-        width:100%;
+        width: 100%;
         height: 96ch;
         top: 35ch;
         padding-left: 0ch;
-        left: -2ch; 
+        left: -2ch;
         margin: 0%;
         overflow: hidden;
     }
-    
+
     .react-pdf__Page__canvas {
-        
+
         position: absolute;
-        display: block; 
-        width:100%;
+        display: block;
+        width: 100%;
         height: 100ch;
         top: 3ch;
         padding-left: 0ch;
-        left: 0ch; 
+        left: 0ch;
         margin: 0%;
         overflow: scroll;
         z-index: 3;
-        
+
     }
-    .resume.container{
+
+    .resume.container {
         overflow-y: scroll;
-       
+
     }
-    
+
     .react-pdf__Page__textContent {
         display: none;
     }
 }
 
 @media screen and (max-width: 540px) {
-    .about-me-txt {
-        font-size: 16px;
+    .banner {
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-position: center;
+        width: 100%;
+        height: 105ch;
+        background-color: #f5e2e2;
+        overflow-y: scroll;
+        padding: 0h;
+        padding-bottom: 0ch;
     }
 
+    .brand-statement {
+        position: absolute;
+        width: 70%;
+        height: 90ch;
+        top: 45ch;
+        padding-left: 0ch;
+        left: 8ch;
+        z-index: 0;
+    }
+
+    .brand-txt {
+        font-size: 29px;
+    }
+
+
+    .about-me-bg {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        height: 92%;
+        top: 37ch;
+        padding-left: 8ch;
+        padding-right: 3ch;
+        left: 2ch;
+        margin: 0%;
+        overflow: hidden;
+    }
+
+
+    .bg_img_change {
+        bottom: 4ch;
+        left: 3ch;
+    }
+
+
+    .close-btn {
+        margin-right: 2ch;
+        width: 24px;
+        height: 26px;
+        top: 20px;
+        font-size: 14px;
+        z-index: 9;
+    }
+
+    .wrapper-sqr-about-me {
+        top: 10ch;
+        right: 0ch;
+        z-index: 1;
+        position: absolute;
+        height: 1000px;
+        width: 99%;
+        overflow: visible;
+        background: rgb(247, 227, 227);
+    }
+
+    .bubble {
+        top: 0ch;
+        left: -5ch;
+        margin: 2%;
+    }
+
+
+    .about-me-txt {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+        height: 130px;
+        font-size: 18px;
+        top: 20px;
+        left: 0px;
+        padding-right: 3ch;
+        z-index: 3;
+    }
+
+
+    .close-btn-resume {
+        margin-right: 2ch;
+        width: 24px;
+        height: 26px;
+        top: 360px;
+        font-size: 14px;
+        z-index: 9;
+    }
+
+
+    .react-pdf__Document {
+        display: none;
+
+    }
+
+    .react-pdf__Page {
+        display: none;
+    }
+
+    .react-pdf__Page__canvas {
+
+        display: none;
+
+    }
+
+    .resume.container {
+        display: none;
+
+    }
+
+    .react-pdf__Page__textContent {
+        display: none;
+    }
+
+    .mobile-download {
+        position: relative;
+        display: block;
+        top: 20ch;
+        width: 17ch;
+        height: 20ch;
+        left: -1ch;
+        padding: 3ch;
+        word-wrap: break-word;
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 45px;
+        color: #818181;
+        border-radius: 2ch;
+        background: rgba(184, 207, 236, 0.473);
+        box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
+
+    }
 }

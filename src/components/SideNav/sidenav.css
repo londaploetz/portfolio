@@ -264,3 +264,89 @@
 
 
 }
+
+        @media screen and (max-width: 540px) {
+    
+                .side-nav-bar {
+                    height: 30%;
+                    width: 80ch;
+                    top: 0px;
+                    left: -4.6ch;
+                    background-color: rgba(240, 248, 255, 0);
+                    box-shadow: none;
+                }
+            
+                .side-nav-bar button {
+                    font-size: 24px;
+                    left: 100px;
+            
+                }
+            
+                button.btn-links {
+                    padding: 10px;
+                    width: 99px;
+                    height: 78px;
+                    text-align: center;
+            
+                }
+            
+                .londa {
+            
+                    font-size: 49px;
+                    top: 0ch;
+                    left: -6px;
+            
+                }
+            
+                .side-nav-bar button:hover {
+            
+                    font-size: 24px;
+                }
+            
+                .btn-links-projects:hover {
+            
+                    font-size: 24px;
+                }
+            
+                .circle-links {
+                    width: 30ch;
+                    height: 3ch;
+                    left: 9ch;
+                    padding-left: 4ch;
+                }
+            
+                .connect-links {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    height: 10ch;
+                    width: 37ch;
+                    font-size: 16px;
+                }
+            
+                .btn-links-projects {
+            
+                    font-size: 24px;
+                    text-align: left;
+                }
+            
+                .email-img {
+                    height: 50px;
+                    width: 90px;
+                }
+            
+                .github-img {
+            
+                    height: 50px;
+                    width: 90px;
+            
+                }
+            
+                .linkedin-img {
+            
+                    height: 50px;
+                    width: 90px;
+            
+                }
+            
+        }

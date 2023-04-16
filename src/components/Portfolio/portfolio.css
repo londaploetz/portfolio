@@ -242,3 +242,54 @@
 
 
 }
+@media screen and (max-width: 540px){
+    
+    .images {
+        height: 80%;
+        width: 80%;
+        border-radius: 2%;
+        left: 3ch;
+    }
+
+    .portfolios-container__portfolio {
+        margin-bottom: 3ch;
+        margin-top: 0ch;
+        width: 60%;
+        height: 45ch;
+        padding: 2ch;
+        
+    }
+
+    .portfolios-container__portfolio-title {
+        font-size: 20px;
+        left: 0ch;
+
+    }
+
+    .portfolios-container__portfolio-title h1 {
+        width: 22ch;
+        font-size: 20px;
+
+    }
+
+   
+
+    .homeNav_container {
+      
+        position: relative; 
+        left: -4.5ch;
+
+
+    }
+
+
+
+    .btn_github_prg {
+
+        font-size: 14px;
+        left: 1ch;
+        text-align: center;
+        padding: 0ch;
+        
+    }
+}
