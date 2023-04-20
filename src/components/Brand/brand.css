@@ -75,7 +75,6 @@
     background-position: center;
     position: relative;
     background-size: contain;
-
     z-index: 0;
     padding: 8%;
     margin-left: 2%;
@@ -148,15 +147,14 @@
 .close-btn {
     background-color: #ffe60500;
     position: absolute;
-    margin-right: 2ch;
-    color: #7a7a7a;
-    border: 2px solid #7a7a7a;
-    border-radius: 100%;
+    color:rgba(255, 236, 236, 0.795); 
+    font-family: 'Dongle', sans-serif;
     left: 1.3ch;
-    top: 1ch;
-    font-size: 40px;
-    z-index: 5;
-    text-shadow: 0px 3px 4px rgba(202, 52, 52, 0.25);
+    border: none;
+    line-height: 29px;
+    top: 1.5ch;
+    font-size: 70px;
+    text-shadow: 1px 0px 0px rgba(202, 52, 52, 0.25);
 
 }
 
@@ -216,7 +214,6 @@
 
 
 .close-btn-resume {
-
     background-color: #81818100;
     position: absolute;
     color: #00000000;
@@ -334,7 +331,7 @@
 
     .close-btn {
         position: absolute;
-        font-size: 24px;
+        font-size: 50px;
 
 
     }
@@ -373,10 +370,16 @@
 
 
     .close-btn-resume {
-        color: #7a7a7a;
-        border: 2px solid #7a7a7a;
-        left: 7ch;
-        bottom: 54ch;
+        background-color: #ffe60500;
+        position: absolute;
+        color:rgba(255, 236, 236, 0.795); 
+        font-family: 'Dongle', sans-serif;
+        border: none;
+        line-height: 29px;
+        font-size: 70px;
+        text-shadow: 1px 0px 0px rgba(202, 52, 52, 0.25);
+        left: 3ch;
+        bottom: 24ch;
         z-index: 5;
     }
 
@@ -458,11 +461,8 @@
 
 
     .close-btn {
-        text-align: center;
-        border: 1px solid #7a7a7a;
-        border-radius: 10%;
-        font-size: 20px;
-        left: 2ch;
+    
+
     }
 
     .wrapper-sqr-about-me {
@@ -502,17 +502,9 @@
 
 
     .close-btn-resume {
-        background-color: #ffe60500;
-        position: absolute;
-        text-align: center;
-        color: #7a7a7a;
-        border: 1px solid #7a7a7a;
-        text-shadow: 0px 3px 4px rgba(202, 52, 52, 0.25);
-        border-radius: 10%;
-        font-size: 20px;
-        z-index: 5;
-        left: 4ch;
-        bottom: 95ch;
+        left: 33px;
+        bottom: 43ch;
+      
     }
 
 

@@ -2,9 +2,8 @@
     position: relative;
     left: 0ch;
     top: 0ch;
-    height: 107.2ch;
     width: 340px;
-    height: 112ch; 
+    height: 120ch; 
     margin: none;
     padding: 10px;
     z-index: 2;
@@ -277,7 +276,7 @@
                 }
             
                 .side-nav-bar button {
-                    font-size: 24px;
+                    font-size: 20px;
                     left: 100px;
             
                 }
@@ -294,13 +293,13 @@
             
                     font-size: 49px;
                     top: 0ch;
-                    left: 0px;
+                    left: -3px;
             
                 }
             
                 .side-nav-bar button:hover {
             
-                    font-size: 24px;
+                    font-size: 20px;
                 }
             
                 .btn-links-projects:hover {
@@ -311,7 +310,7 @@
                 .circle-links {
                     width: 30ch;
                     height: 3ch;
-                    left: 9ch;
+                    left: 8ch;
                     padding-left: 4ch;
                 }
             
@@ -326,7 +325,7 @@
             
                 .btn-links-projects {
             
-                    font-size: 24px;
+                    font-size: 20px;
                     text-align: left;
                 }
             

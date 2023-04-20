@@ -209,7 +209,7 @@
 
     .londa_home {
         top: 1ch;
-        left: 0ch;
+        left: -3px;
     }
 
     .project-home {
@@ -273,13 +273,12 @@
         font-size: 20px;
 
     }
-
    
 
     .homeNav_container {
       
         position: relative;
-        left: -3.5ch;
+        left: -4.5ch;
         text-align: center;
         top: 0ch;
         margin: none;

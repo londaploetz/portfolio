@@ -47,7 +47,7 @@ const Brand = () => {
       {aboutMe != true ? null : <div className='wrapper-sqr-about-me'>
 
         <div id="true" className="about-me-bg">
-          <button className="close-btn " type="button" onClick={closeButton}>x</button>
+          <button className="close-btn " type="button" onClick={closeButton}>X</button>
           <div className='about-me-txt'>
             <p> A front-end developer who loves to engineer creative, fun, and innovative projects.
               Bachelor’s Degree of Fine Arts brings an important understanding of communication and collaboration,
