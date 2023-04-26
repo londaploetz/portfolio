@@ -147,7 +147,7 @@
 .close-btn {
     background-color: #ffe60500;
     position: absolute;
-    color:rgba(255, 236, 236, 0.795); 
+    color: rgba(255, 236, 236, 0.795);
     font-family: 'Dongle', sans-serif;
     left: 1.3ch;
     border: none;
@@ -162,9 +162,9 @@
     top: 0ch;
     right: 0ch;
     z-index: 1;
-    position: fixed;
+    position: relative;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     background: rgb(255, 236, 236);
@@ -269,7 +269,7 @@
         font-size: 34px;
         margin: 4%;
     }
-  
+
 }
 
 
@@ -372,7 +372,7 @@
     .close-btn-resume {
         background-color: #ffe60500;
         position: absolute;
-        color:rgba(255, 236, 236, 0.795); 
+        color: rgba(255, 236, 236, 0.795);
         font-family: 'Dongle', sans-serif;
         border: none;
         line-height: 29px;
@@ -383,7 +383,7 @@
         z-index: 5;
     }
 
-    .pdf-resume{
+    .pdf-resume {
         display: none;
     }
 
@@ -393,7 +393,7 @@
         top: 20ch;
         width: 17ch;
         height: 20ch;
-        left:4ch;
+        left: 4ch;
         padding: 3ch;
         word-wrap: break-word;
         font-family: Century Gothic;
@@ -424,10 +424,10 @@
     }
 
     .brand-statement {
-        position: absolute;
+        position: relative;
         width: 50%;
         height: 100%;
-        top: 45ch;
+        top: 5ch;
         padding-left: 0ch;
         left: 0ch;
         z-index: 0;
@@ -436,41 +436,81 @@
     .brand-txt {
         font-size: 29px;
     }
-    .pdf-resume{
+
+    .pdf-resume {
         display: none;
     }
 
+ 
 
     .about-me-bg {
-        position: absolute;
-        width: 65%;
-        height: 79%;
-        top: 37ch;
-        padding-left: 8ch;
-        padding-right: 3ch;
-        left: 2ch;
-        margin: 0%;
+        position: relative;
+        width: 98%;
+        height: 50%;
+        top: 0ch;
+        border-radius: 0;
+        left: 0ch;
+        box-shadow: none;
+        border-bottom: 2px solid #707070;
+       
 
     }
 
+    .about-me-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        color: #818181;
+        background-color:rgb(211, 228, 243);
+        font-family: 'Coiny', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 45px;
+        margin: 0;
+        margin-top: 40px;
+        padding: 10px;
+       border-bottom: 2px solid #707070;
+       border-top: 2px solid #707070;
+       text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
+
+    }
 
     .bg_img_change {
-        bottom: 4ch;
+        bottom: 3ch;
         left: 3ch;
     }
 
 
     .close-btn {
-    display: none;
+        background-color: #ffffff00;
+        position: relative;
+        color: rgba(0, 0, 0, 0.795);
+       
+        font-family: 'Dongle', sans-serif;
+        display: inline;
+        border: none;
+     line-height: 0;
+        left: 5%;
+        right: 0;
+        top: 2px;
+        bottom: 0;
+        font-size: 50px;
+  
+        color:#fadede;
+   
+
+   
 
     }
 
     .wrapper-sqr-about-me {
-        top: 10ch;
+        top: 45ch;
         right: 0ch;
         z-index: 1;
         position: absolute;
-        height: 1444px;
+        height: 100%;
         width: 100%;
         overflow: visible;
         align-items: center;
@@ -491,30 +531,74 @@
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        width: 98%;
+        width:85%;
         height: 130px;
         font-size: 18px;
+        line-height: 35px;
         top: 20px;
         left: 0px;
-        padding-right: 3ch;
+
         z-index: 3;
     }
 
 
     .close-btn-resume {
-        display: none;
-      
+        background-color: #ffffff00;
+        position: relative;
+        color: rgba(0, 0, 0, 0.795);
+       
+        font-family: 'Dongle', sans-serif;
+        display: inline;
+        border: none;
+        line-height: 0;
+        left: 5%;
+        right: 0;
+        top: 2px;
+        bottom: 0;
+        font-size: 70px;
+  
+        color:#fadede;
+   
+
+    }
+
+    .resume-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        color: #818181;
+        background-color: rgb(211, 228, 243);
+        font-family: 'Coiny', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 45px;
+        margin: 0;
+        margin-top: 40px;
+        padding: 10px;
+       border-bottom: 2px solid #707070;
+       border-top: 2px solid #707070;
+       text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
     }
 
 
     .mobile-download {
-        position: absolute;
-        display: block;
-        top: 20ch;
-        width: 60%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        top: 0ch;
+        width: 100%;
+     
         height: 20ch;
-        left: 6%;
-        padding: 13%;
+   
+        padding: 0ch;
+    
+        left: 0;
+        padding-top: 1ch;
+        padding-bottom: 3ch;
+      
         word-wrap: break-word;
         font-family: Century Gothic;
         font-style: normal;
@@ -522,9 +606,25 @@
         font-size: 28px;
         line-height: 45px;
         color: #818181;
-        border-radius: 2ch;
+        margin: 0;
+        border-radius: 0;
         background: rgba(184, 207, 236, 0.473);
-        box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
+        box-shadow: none;
+        border-bottom: 2px solid #707070;
 
+    }
+    .peace{
+   
+            width: 20ch;
+            height: 20ch;
+            position: relative;
+            top: 15%;
+            left: 0ch;
+            background: rgba(184, 207, 236, 0);
+            padding-left: 80px;
+            padding-right: 80px;
+
+        
+        
     }
 }

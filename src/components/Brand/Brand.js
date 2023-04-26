@@ -5,6 +5,8 @@ import { useState } from "react";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import resumePDF from "../../Assets/Documents/resume2023.pdf";
 import mepic from "../../Assets/Images/mepic.png"
+import peace from "../../Assets/Images/peace.png"
+
 
 const Brand = () => {
 
@@ -45,9 +47,13 @@ const Brand = () => {
 
 
       {aboutMe != true ? null : <div className='wrapper-sqr-about-me'>
-
+   <h2 className='about-me-title'> about me  
+   <button className="close-btn " type="button" onClick={closeButton}>X</button>
+   </h2>
+   
         <div id="true" className="about-me-bg">
-          <button className="close-btn " type="button" onClick={closeButton}>X</button>
+        
+       
           <div className='about-me-txt'>
             <p> A front-end developer who loves to engineer creative, fun, and innovative projects.
               Bachelor’s Degree of Fine Arts brings an important understanding of communication and collaboration,
@@ -60,14 +66,20 @@ const Brand = () => {
       </div>}
 
       {resume != true ? null : <div className='wrapper-sqr-about-me'>
+      <h2 className='resume-title'> resume  <button className="close-btn-resume" type="button" onClick={closeButton}>x</button> </h2>
         <div id="true" className="resume_container">
-          <button className="close-btn-resume" type="button" onClick={closeButton}>x</button>
+         
           <embed className="pdf-resume" 
           src={require("../../Assets/Documents/resume2023.pdf")} width="800px" height="700px" />
           <p class="mobile-download">Looks like you're looking at this screen on mobile. Download the PDF  
           <br></br>
           <a id="mobile-download-here" target="_blank" href="https://drive.google.com/file/d/12N943zZQlYcDx3bUVrzcxCSp4YP6hs8v/view?usp=sharing" >here</a>
           </p>
+          <img
+        src={peace}
+        className="peace"
+        alt="peace hand img"
+      />
         </div>
       </div>
 
@@ -77,6 +89,8 @@ const Brand = () => {
         className="mepic"
         alt="a drawing of Londa"
       />
+
+
 
     </div>
   )

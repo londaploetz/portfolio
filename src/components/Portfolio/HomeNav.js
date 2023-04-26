@@ -31,7 +31,7 @@ const HomeNav = () => {
                         to="/home"
                         id="home-text"
                         className='project-home'>
-                        Home
+                        home
                   </Link>
 
             </div>
