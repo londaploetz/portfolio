@@ -444,7 +444,7 @@
     .about-me-bg {
         position: absolute;
         width: 65%;
-        height: 100%;
+        height: 79%;
         top: 37ch;
         padding-left: 8ch;
         padding-right: 3ch;
@@ -461,7 +461,7 @@
 
 
     .close-btn {
-    
+    display: none;
 
     }
 
@@ -502,8 +502,7 @@
 
 
     .close-btn-resume {
-        left: 33px;
-        bottom: 43ch;
+        display: none;
       
     }
 
