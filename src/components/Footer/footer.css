@@ -42,7 +42,7 @@
 
 
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 890px) {
     .footer-content {
         display: none;
 
@@ -53,14 +53,14 @@
 
     .mepic {
         position: absolute;
-        top: 80ch;
+        top: 83ch;
     }
 
 }
 @media screen and (max-width: 550px){
     .mepic {
         position: absolute;
-        top: 73ch;
+        top: 80ch;
        
     }
     .footer-container {

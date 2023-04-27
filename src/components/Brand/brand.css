@@ -7,7 +7,7 @@
     background-position: center;
     width: 100%;
     height: 120ch;
-    background: rgba(255, 236, 236, 0.795);
+    background:rgba(255, 236, 236, 0.795); 
     overflow: hidden;
     padding: 0ch;
 }
@@ -41,6 +41,10 @@
     padding: 20%;
     left: 14ch;
     margin: 0%;
+}
+.peace{
+    width: 0;
+    height: 0;
 }
 
 .brand-txt {
@@ -144,17 +148,21 @@
 
 }
 
-.close-btn {
-    background-color: #ffe60500;
-    position: absolute;
-    color: rgba(255, 236, 236, 0.795);
+.close-btn-lg {
+    background-color: #ffffff00;
+    position: relative;
+    color: rgba(0, 0, 0, 0.795);
+   text-align: right;
+
     font-family: 'Dongle', sans-serif;
-    left: 1.3ch;
+    display: inline;
     border: none;
-    line-height: 29px;
-    top: 1.5ch;
+    line-height: 0;
+    left: 23%;
+    top: 2px;
     font-size: 70px;
-    text-shadow: 1px 0px 0px rgba(202, 52, 52, 0.25);
+
+    color:#858484;
 
 }
 
@@ -162,8 +170,8 @@
     top: 0ch;
     right: 0ch;
     z-index: 1;
-    position: relative;
-    display: flex;
+    position: absolute;
+    display: block;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -178,12 +186,13 @@
     display: block;
     flex-direction: column;
     width: 50%;
-    height: 75%;
+    height: 80%;
     border-radius: 2ch;
     background: rgba(184, 207, 236, 0.473);
     box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
-    top: 10ch;
+    top: 15ch;
     padding-left: 10ch;
+    padding-bottom: 20px;
     left: 65ch;
     margin: 0%;
     overflow: hidden;
@@ -202,27 +211,57 @@
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    line-height: 45px;
+    line-height: 55px;
     color: #818181;
-    top: 60px;
+    top: 20%;
     left: 0px;
     text-align: left;
     padding-right: 2ch;
     z-index: 3;
+    
+}
+
+.about-me-title-lg{
+    position: absolute;
+    font-family: 'Coiny', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    margin-top: 0px;
+    padding: 30px;
+    color: #818181;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(184, 207, 236, 0.473);
+    border-radius: 20px 20px 0px 0px;
+  
+}
+.about-me-title{
+    display: none;
 }
 
 
 
-.close-btn-resume {
-    background-color: #81818100;
-    position: absolute;
-    color: #00000000;
-    border: 2px solid #41404000;
-    border-radius: 100%;
-    left: 107ch;
-    bottom: 75ch;
-    font-size: 20px;
-    z-index: -1;
+.close-btn-resume-lg {
+    background-color: #ffffff00;
+    position: relative;
+    color: rgba(0, 0, 0, 0.795);
+    font-family: 'Dongle', sans-serif;
+    display: inline;
+    border: none;
+    line-height: 0;
+    left: 23%;
+    right: 0;
+    top: 2px;
+    bottom: 0;
+    font-size: 70px;
+    color:#858484;
 
 }
 
@@ -230,20 +269,59 @@
 .pdf-resume {
     width: 75ch;
     height: 100ch;
-    top: 5ch;
-    position: relative;
-    left: 50ch;
-    padding-left: 10%;
-    position: fixed;
+    top: 7ch;
+    left: 8ch;
+    position: absolute;
     display: block;
     align-items: center;
+
+
+
+}
+.resume-title{
+    display: none;
+}
+
+.resume-title-lg{
+    position: absolute;
+    font-family: 'Coiny', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #818181;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(206, 221, 243);
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.resume_container{
+    width:92ch;
+    height: 94%;
+    position: relative;
+    display: block;
+    background:rgb(214, 203, 223);
+    left: 35%;
+    top: 2ch;
+    z-index: 2;
+    border-radius: 20px
 
 
 }
 
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     .brand-statement {
 
         padding-left: 0ch;
@@ -273,14 +351,14 @@
 }
 
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 890px) {
 
     .banner {
         flex-wrap: wrap;
         flex-direction: row;
         background-position: center;
         width: 100%;
-        height: 130ch;
+        height: 100ch;
         background-color: #f5e2e2;
         overflow-y: scroll;
         padding: 0h;
@@ -288,12 +366,12 @@
     }
 
     .brand-statement {
-        position: absolute;
-        width: 70%;
-        height: 60ch;
-        top: 45ch;
+        position: relative;
+        width: 60%;
+        height: 50ch;
+        top: -2ch;
         padding-left: 0ch;
-        left: 8ch;
+        left: 20%;
         z-index: 0;
 
 
@@ -310,12 +388,12 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        width: 65%;
+        width: 70%;
         height: 95%;
         top: 35ch;
         padding-left: 8ch;
         padding-right: 2ch;
-        left: 3ch;
+        left: 8%;
         padding-bottom: 2ch;
         margin: 0%;
         overflow: hidden;
@@ -329,9 +407,10 @@
     }
 
 
-    .close-btn {
-        position: absolute;
-        font-size: 50px;
+    .close-btn-lg {
+      
+        font-size: 70px;
+        left: 10%;
 
 
     }
@@ -348,10 +427,15 @@
 
     }
 
+   
     .bubble {
-        top: 0ch;
-        left: -5ch;
-        margin: 2%;
+        height: 30ch;
+        width: 60ch;
+        top: 7ch;
+        padding: 20%;
+        left: 0ch;
+        margin: 0;
+     
     }
 
 
@@ -362,39 +446,51 @@
         width: 98%;
         height: 170px;
         font-size: 21px;
-        top: 20px;
+        top: 80px;
         left: 0px;
         padding-right: 3ch;
         z-index: 3;
     }
 
 
-    .close-btn-resume {
-        background-color: #ffe60500;
-        position: absolute;
-        color: rgba(255, 236, 236, 0.795);
-        font-family: 'Dongle', sans-serif;
-        border: none;
-        line-height: 29px;
-        font-size: 70px;
-        text-shadow: 1px 0px 0px rgba(202, 52, 52, 0.25);
-        left: 3ch;
-        bottom: 24ch;
-        z-index: 5;
+    .close-btn-resume-lg {
+    left: 10%;
     }
 
     .pdf-resume {
         display: none;
     }
 
+
+
+
+    .resume-title{
+        display: none;
+        
+    }
+    .resume-title-lg{
+        color: #818181;
+        z-index: 1;
+        
+    }
+
+
     .mobile-download {
-        position: absolute;
-        display: block;
-        top: 20ch;
-        width: 17ch;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        top: 0ch;
+        width: 100%;
+     
         height: 20ch;
-        left: 4ch;
-        padding: 3ch;
+   
+        padding: 0ch;
+    
+        left: 0;
+        padding-top: 1ch;
+        padding-bottom: 3ch;
+
         word-wrap: break-word;
         font-family: Century Gothic;
         font-style: normal;
@@ -402,11 +498,29 @@
         font-size: 28px;
         line-height: 45px;
         color: #818181;
-        border-radius: 2ch;
+        margin: 0;
+        border-radius: 20px;
         background: rgba(184, 207, 236, 0.473);
-        box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
+        box-shadow: none;
+        
+
+
 
     }
+    .resume_container{
+        width:100%;
+        height: 10ch;
+        position: relative;
+        display: block;
+        background:rgba(214, 203, 223, 0);
+        left: 0;
+        top: 40ch;
+        z-index: 0;
+        
+    
+        
+    }
+
 }
 
 
@@ -414,9 +528,10 @@
     .banner {
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
         background-position: center;
         width: 100%;
-        height: 130ch;
+        height: 110ch;
         background-color: #f5e2e2;
         overflow-y: scroll;
         padding: 0;
@@ -425,13 +540,24 @@
 
     .brand-statement {
         position: relative;
-        width: 50%;
+        width: 100%;
         height: 100%;
         top: 5ch;
         padding-left: 0ch;
         left: 0ch;
         z-index: 0;
+    }  
+    
+    .bubble {
+        height: 30ch;
+        width: 60ch;
+        top: 7ch;
+        padding: 20%;
+        left: 0ch;
+        margin: 0;
+     
     }
+
 
     .brand-txt {
         font-size: 29px;
@@ -452,7 +578,7 @@
         left: 0ch;
         box-shadow: none;
         border-bottom: 2px solid #707070;
-       
+   
 
     }
 
@@ -469,10 +595,10 @@
         font-size: 45px;
         line-height: 45px;
         margin: 0;
-        margin-top: 40px;
+        margin-top: 55px;
         padding: 10px;
-       border-bottom: 2px solid #707070;
        border-top: 2px solid #707070;
+       border-bottom: 2px solid #707070;
        text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
 
     }
@@ -486,23 +612,21 @@
     .close-btn {
         background-color: #ffffff00;
         position: relative;
-        color: rgba(0, 0, 0, 0.795);
-       
+        color: #818181;
         font-family: 'Dongle', sans-serif;
+        border: none;
+        line-height: 29px;
+        font-size: 70px;
+        text-shadow: 1px 0px 0px rgba(202, 52, 52, 0.25);
         display: inline;
         border: none;
-     line-height: 0;
-        left: 5%;
+        line-height: 0;
+        left: 10%;
         right: 0;
         top: 2px;
         bottom: 0;
-        font-size: 50px;
-  
-        color:#fadede;
-   
-
-   
-
+        font-size: 70px;
+    
     }
 
     .wrapper-sqr-about-me {
@@ -517,15 +641,7 @@
         background: rgb(247, 227, 227);
     }
 
-    .bubble {
-        height: 30ch;
-        width: 60ch;
-        top: 0ch;
-        padding: 20%;
-        left: 0ch;
-        margin: 10%;
-    }
-
+ 
 
     .about-me-txt {
         position: relative;
@@ -537,7 +653,6 @@
         line-height: 35px;
         top: 20px;
         left: 0px;
-
         z-index: 3;
     }
 
@@ -545,19 +660,18 @@
     .close-btn-resume {
         background-color: #ffffff00;
         position: relative;
-        color: rgba(0, 0, 0, 0.795);
-       
+        color: #818181;
         font-family: 'Dongle', sans-serif;
         display: inline;
         border: none;
         line-height: 0;
-        left: 5%;
+        left: 10%;
         right: 0;
         top: 2px;
         bottom: 0;
         font-size: 70px;
   
-        color:#fadede;
+ 
    
 
     }
@@ -575,10 +689,10 @@
         font-size: 45px;
         line-height: 45px;
         margin: 0;
-        margin-top: 40px;
+        margin-top: 55px;
         padding: 10px;
-       border-bottom: 2px solid #707070;
-       border-top: 2px solid #707070;
+        border-top: 2px solid #707070;
+        border-bottom: 2px solid #707070;
        text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
     }
 
@@ -610,17 +724,39 @@
         border-radius: 0;
         background: rgba(184, 207, 236, 0.473);
         box-shadow: none;
+        
         border-bottom: 2px solid #707070;
 
+
+    }
+    .resume-title-lg{
+        display: none;
+    }
+    .about-me-title-lg{
+        display: none;
+    }
+    .resume_container{
+        width:100%;
+        height: 10ch;
+        position: relative;
+        display: block;
+        background:rgba(214, 203, 223, 0);
+        left: 0;
+        top: 0ch;
+        z-index: 0;
+        border-radius: 0px
+    
+        
     }
     .peace{
    
-            width: 20ch;
-            height: 20ch;
+            width: 25ch;
+            height: 25ch;
             position: relative;
-            top: 15%;
+            padding-top: 25%;
+            z-index: 2;
             left: 0ch;
-            background: rgba(184, 207, 236, 0);
+            background: rgba(128, 153, 184, 0);
             padding-left: 80px;
             padding-right: 80px;
 

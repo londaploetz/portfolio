@@ -15,7 +15,7 @@
   
   .projects {
     text-align: center;
-    background:  rgb(255, 236, 236);
+    background:  rgb(245, 227, 227);
     background-position: center;
     background-size: cover;
     height: 310ch; 
@@ -139,26 +139,27 @@
 }
 
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 890px) {
     .home {
       padding: 0px;
       
     }
     .projects {
-      text-align: center;
-      background-position: center;
-      background-size: cover;
-      padding: 0px; 
-      padding-bottom: 10ch;
+      align-items: center;
       overflow-y: scroll;
+      display: block;
+      height: 100%;
+      overflow-y: scroll;
+     
   
     }
   
     .each-project-container {
       padding: 0;
       text-align: left;
-      left: 5%;
-      top: 44ch;
+      left: 10%;
+  
+      top: 0ch;
       width: 100%;
       height: 210ch;
       border-radius: 0%;   
@@ -173,6 +174,7 @@
     display: block;
     height: 100%;
     overflow-y: scroll;
+    
 
   }
   .each-project-container {

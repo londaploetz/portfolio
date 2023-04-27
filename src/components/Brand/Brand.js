@@ -52,8 +52,11 @@ const Brand = () => {
    </h2>
    
         <div id="true" className="about-me-bg">
-        
-       
+        <h2 className='about-me-title-lg'> about me  
+   <button className="close-btn-lg " type="button" onClick={closeButton}>X</button>
+   </h2>
+   
+
           <div className='about-me-txt'>
             <p> A front-end developer who loves to engineer creative, fun, and innovative projects.
               Bachelor’s Degree of Fine Arts brings an important understanding of communication and collaboration,
@@ -68,7 +71,7 @@ const Brand = () => {
       {resume != true ? null : <div className='wrapper-sqr-about-me'>
       <h2 className='resume-title'> resume  <button className="close-btn-resume" type="button" onClick={closeButton}>x</button> </h2>
         <div id="true" className="resume_container">
-         
+        <h2 className='resume-title-lg'> resume  <button className="close-btn-resume-lg" type="button" onClick={closeButton}>x</button> </h2>
           <embed className="pdf-resume" 
           src={require("../../Assets/Documents/resume2023.pdf")} width="800px" height="700px" />
           <p class="mobile-download">Looks like you're looking at this screen on mobile. Download the PDF  
