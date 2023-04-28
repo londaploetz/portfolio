@@ -16,19 +16,19 @@ html,
 body {
   height: 100%;
   width: 100%;
-  box-sizing: border-box;
   margin: 0;
-  background: rgb(255, 236, 236);
+  padding: 0;
+  background: rgba(250, 234, 234, 0.795);
   z-index: -1;
   
 }
 
 #root {
-  height: 2%;
+  height: 100%;
   width: 100%;
-  box-sizing: border-box;
+
   margin: 0;
-  background: rgb(94, 54, 54);
+  background: rgb(255, 255, 255);
  }
 
 @media screen and (max-width: 890px) {
@@ -45,10 +45,10 @@ body {
 }
 #root {
   height: 100%;
-  width: 100%;
+  padding: 0px; 
   margin: 0;
   align-items: center;
-  background: rgb(255, 255, 255);
+   background: rgba(250, 234, 234, 0.795);
  }
 
 

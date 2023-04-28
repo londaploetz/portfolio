@@ -2,8 +2,6 @@ import React from 'react';
 import SideNav from '../SideNav/SideNav';
 import './brand.css';
 import { useState } from "react";
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-import resumePDF from "../../Assets/Documents/resume2023.pdf";
 import mepic from "../../Assets/Images/mepic.png"
 import peace from "../../Assets/Images/peace.png"
 

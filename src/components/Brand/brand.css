@@ -6,7 +6,7 @@
     flex-direction: row;
     background-position: center;
     width: 100%;
-    height: 120ch;
+    height: 100vh;
     background:rgba(255, 236, 236, 0.795); 
     overflow: hidden;
     padding: 0ch;
@@ -190,7 +190,7 @@
     border-radius: 2ch;
     background: rgba(184, 207, 236, 0.473);
     box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
-    top: 15ch;
+    top: 5ch;
     padding-left: 10ch;
     padding-bottom: 20px;
     left: 65ch;
@@ -268,9 +268,9 @@
 
 .pdf-resume {
     width: 75ch;
-    height: 100ch;
+    height: 91ch;
     top: 7ch;
-    left: 8ch;
+    left: 8.2ch;
     position: absolute;
     display: block;
     align-items: center;
@@ -307,7 +307,7 @@
 
 .resume_container{
     width:92ch;
-    height: 94%;
+    height: 92%;
     position: relative;
     display: block;
     background:rgb(214, 203, 223);
@@ -358,7 +358,7 @@
         flex-direction: row;
         background-position: center;
         width: 100%;
-        height: 100ch;
+        height: 100vh;
         background-color: #f5e2e2;
         overflow-y: scroll;
         padding: 0h;
@@ -386,14 +386,13 @@
 
     .about-me-bg {
         position: absolute;
-        display: flex;
+        display: block;
         flex-direction: column;
-        width: 70%;
+        width: 100%;
         height: 95%;
-        top: 35ch;
-        padding-left: 8ch;
-        padding-right: 2ch;
-        left: 8%;
+        top: 39ch;
+       padding: 2PX;
+        left: 0;
         padding-bottom: 2ch;
         margin: 0%;
         overflow: hidden;
@@ -421,7 +420,7 @@
         z-index: 1;
         position: absolute;
         height: 990px;
-        width: 99%;
+        width: 100%;
         overflow: visible;
         background: rgb(247, 227, 227);
 
@@ -431,11 +430,11 @@
     .bubble {
         height: 30ch;
         width: 60ch;
-        top: 7ch;
+        top: 3ch;
         padding: 20%;
         left: 0ch;
         margin: 0;
-     
+        margin-top: 30px;
     }
 
 
@@ -443,13 +442,14 @@
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        width: 98%;
-        height: 170px;
-        font-size: 21px;
-        top: 80px;
+        width: 100%;
+        height: 160px;
+        font-size: 24px;
+        top: 140px;
         left: 0px;
-        padding-right: 3ch;
+        padding-right: 0ch;
         z-index: 3;
+        margin: 5px;
     }
 
 
@@ -531,16 +531,18 @@
         justify-content: center;
         background-position: center;
         width: 100%;
-        height: 110ch;
+        height: 100vh;
         background-color: #f5e2e2;
         overflow-y: scroll;
         padding: 0;
+        left: 0;
         padding-bottom: 0ch;
     }
 
     .brand-statement {
         position: relative;
-        width: 100%;
+        justify-content: center;
+        width:60%;
         height: 100%;
         top: 5ch;
         padding-left: 0ch;
@@ -551,7 +553,7 @@
     .bubble {
         height: 30ch;
         width: 60ch;
-        top: 7ch;
+        top: 5ch;
         padding: 20%;
         left: 0ch;
         margin: 0;
@@ -571,10 +573,11 @@
 
     .about-me-bg {
         position: relative;
-        width: 98%;
+        width: 100%;
         height: 50%;
         top: 0ch;
         border-radius: 0;
+        padding: 0;
         left: 0ch;
         box-shadow: none;
         border-bottom: 2px solid #707070;
@@ -604,8 +607,13 @@
     }
 
     .bg_img_change {
-        bottom: 3ch;
-        left: 3ch;
+        background-image: url("../../Assets/Images/amazing2.png"); 
+        width: 60%;
+        animation: none;
+        height: 20%;
+        padding: 8%;
+        margin-left: 4%;
+        margin-bottom: 9%;
     }
 
 
@@ -645,14 +653,14 @@
 
     .about-me-txt {
         position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        width:85%;
+    text-align: center;
+        width:98%;
         height: 130px;
         font-size: 18px;
         line-height: 35px;
-        top: 20px;
+        top: 29px;
         left: 0px;
+        margin: 0px;
         z-index: 3;
     }
 
@@ -707,7 +715,7 @@
      
         height: 20ch;
    
-        padding: 0ch;
+        padding:0; 
     
         left: 0;
         padding-top: 1ch;

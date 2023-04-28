@@ -136,11 +136,10 @@
     display: inline;
     text-align: center;
     padding: 1ch;
-    left: 10%;
-    border: 9px ridge rgba(216, 95, 95, 0);
+    left: 20%;
     background-color: rgba(228, 228, 228, 0);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 27px;
     color: #818181;
     border-radius: 2ch;
     background-color: rgba(184, 207, 236, 0);
@@ -162,7 +161,7 @@
         height: 80%;
         width: 80%;
         border-radius: 2%;
-        left: 3ch;
+        left: 2ch;
     }
 
     .portfolios-container__portfolio {
@@ -171,8 +170,10 @@
         color: #818181;
         display: table;
         margin-top: 0ch;
-        text-align: left;
+        text-align: center;
+        padding-top: 2ch;
         height: 70ch;
+        margin-bottom: 2ch;
         width: 80%;
         line-height: 45px;
         border-radius: 2ch;
@@ -183,9 +184,11 @@
     .portfolios-container__portfolio-title {
         font-size: 20px;
         left: 0ch;
+
         text-align: center;
         font-size: 20px;
         color: #818181;
+        margin-right: 0;
         line-height: 45px;
         position: relative;
         text-shadow: 0px 4px 4px rgba(238, 146, 200, 0.25);
@@ -193,8 +196,8 @@
     }
 
     .portfolios-container__portfolio-title h1 {
-          width: 100%;
-  
+        width: 100%;
+        left: 20px;
         text-align: center;
         padding: 2px;
         margin: 2px;
@@ -204,16 +207,16 @@
     .portfolios-container_portfolio-text p {
         position: relative;
         height: 30%;
-        width: 100%;
-     
+        width: 90%;
+
         left: 2ch;
         word-wrap: break-word;
 
     }
 
     .homeNav_container {
-     
-      
+
+
         left: 0ch;
         top: 2ch;
         width: 100%;
@@ -231,7 +234,7 @@
         box-shadow: none;
         background-color: rgba(240, 248, 255, 0);
 
-  
+
 
 
     }
@@ -271,9 +274,9 @@
     .btn_github_prg {
 
         font-size: 19px;
-        left: 0ch;
+        left: 20px;
         text-align: center;
-        padding: 0ch;
+        padding: 1ch;
 
     }
 
@@ -330,12 +333,24 @@
         font-size: 20px;
         text-align: center;
         padding: 0;
+        left: 0;
         margin: 0;
+    }
+
+    .portfolios-container_portfolio-text p {
+        position: relative;
+        height: 30%;
+        width: 90%;
+        text-align: center;
+
+        left: 2ch;
+        word-wrap: break-word;
+
     }
 
 
     .homeNav_container {
-   
+
         left: 0ch;
         top: 2ch;
         width: 100%;
@@ -398,14 +413,13 @@
         font-size: 14px;
         left: 0ch;
         text-align: center;
-        padding: 0ch;
+        padding: 8px;
 
     }
 
     .project-home:hover {
         color: rgba(44, 107, 111, 0.58);
         border-bottom: none
-       
     }
 
 }

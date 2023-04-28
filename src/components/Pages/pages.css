@@ -1,7 +1,7 @@
 .home {
     text-align: center;
     position: relative;
-    background: rgb(255, 236, 236);
+    background: rgb(245, 224, 224);
     background-position: center;
     flex-wrap: nowrap;
     background-size: cover;
@@ -9,8 +9,8 @@
     height: 100%;
     flex-wrap: nowrap;
     padding: 0px; 
+    min-height: 0; 
     overflow: hidden;
-    min-height: 100vh;
   }
   
   .projects {
@@ -158,7 +158,7 @@
       padding: 0;
       text-align: left;
       left: 10%;
-  
+      
       top: 0ch;
       width: 100%;
       height: 210ch;

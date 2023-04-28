@@ -19,7 +19,7 @@
     width: 60ch;
     height: 50ch;
     position: relative;
-    top: 71ch;
+    top: 57ch;
     left: 0ch;
     z-index: 0;
     background-color: #24242400;
@@ -34,7 +34,7 @@
         left: 1%;
         width: 50ch;
         height: 40ch;
-        top: 80ch;
+        top: 67ch;
 
     }
 }
@@ -53,14 +53,14 @@
 
     .mepic {
         position: absolute;
-        top: 83ch;
+        top: 85ch;
     }
 
 }
 @media screen and (max-width: 550px){
     .mepic {
         position: absolute;
-        top: 80ch;
+        top: 73ch;
        
     }
     .footer-container {
