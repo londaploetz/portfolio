@@ -14,11 +14,11 @@ code {
 
 html,
 body {
-  height: 100%;
+height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
-  background: rgba(250, 234, 234, 0.795);
+  padding-bottom: 0px;
+  background: rgb(250, 246, 229);
   z-index: -1;
   
 }
@@ -28,8 +28,12 @@ body {
   width: 100%;
 
   margin: 0;
-  background: rgb(255, 255, 255);
+  background:rgb(250, 246, 229); ;
  }
+
+ html, body, #app, #app>div {
+  height: 100%
+}
 
 @media screen and (max-width: 890px) {
   html,
