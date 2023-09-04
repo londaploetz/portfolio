@@ -1,3 +1,17 @@
+.navbar-container{
+padding-bottom: 10ch;
+}
+
+
+.navbar-row{
+padding: 10px;
+padding-top: 40px;
+
+background: rgb(253, 222, 137);
+border-bottom: 2px solid #818181;
+
+}
+
 .side-nav-bar {
     position: relative;
     left: 0ch;
@@ -27,9 +41,11 @@
     background-color: #f5e2e200;
     transition: 0.5s;
     margin: 0%;
+    
 
 
 }
+
 
 .connect-links button {
     display: block;
@@ -37,7 +53,8 @@
     text-decoration: none;
     font-size: 30px;
     font-family: 'Coiny', cursive;
-    color: #818181;
+    color: rgb(239,154,159);
+    text-shadow: 0px 10px 0px rgba(68,119,123);
     display: block;
     transition: 0.3s;
     text-align: left;
@@ -55,7 +72,7 @@
     font-size: 32px;
 }
 
-
+/* 
 .londa {
     display: block;
     position: relative;
@@ -73,16 +90,14 @@
     line-height: 60px;
     color: #818181;
     text-shadow: 0px 4px 4px rgba(187, 75, 99, 0.308);
-}
+} */
 
-.circle-links {
-    display: flex;
-    position: relative;
-    flex-direction: row;
+/* .circle-links {
+   
     width: 22ch;
     height: 9ch;
-    padding-left: 2ch;
-    left: 5ch;
+
+
     justify-content: space-between;
     align-items: center;
 }
@@ -101,7 +116,7 @@
     height: 80px;
     width: 35px;
     background-size: contain;
-    padding-left: 2ch;
+   
     background-repeat: no-repeat;
 }
 
@@ -114,7 +129,7 @@
     width: 35px;
     background-size: contain;
     background-repeat: no-repeat;
-    padding-left: 2ch;
+
 
 }
 
@@ -125,34 +140,35 @@
     height: 80px;
     width: 35px;
     background-size: contain;
-    padding-left: 2ch;
+
     background-repeat: no-repeat;
-}
+} */
 
 
-.btn-links-projects {
+.btn-links{
     display: block;
     text-decoration: none;
     font-family: 'Coiny', cursive;
     font-size: 30px;
-    color: #818181;
+    color: rgb(68,119,123);
+    text-shadow: 0px 3px 0px rgba(239,154,159);
     display: block;
     transition: 0.3s;
     text-align: left;
     border: none;
     margin: 0%;
     background: rgba(231, 222, 203, 0);
-    text-shadow: 0px 4px 4px rgba(187, 75, 99, 0.308);
+   
 }
 
-.btn-links-projects:hover {
-    color: rgba(58, 129, 134, 0.58);
-    text-shadow: 0px 4px 4px rgba(38, 63, 63, 0.144);
-    font-size: 32px;
+.btn-links:hover {
+    color:  rgba(239,154,159);
+    text-shadow: 0px 3px 0px rgb(68,119,123);
+   
 }
 
 
-
+/* 
 @media screen and (max-height: 450px) {
     .connect-links {
         padding-top: 15px;
@@ -420,4 +436,4 @@
         width: 90px;
     }
 
-}
+} */
