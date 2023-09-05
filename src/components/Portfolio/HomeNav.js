@@ -1,40 +1,33 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 const HomeNav = () => {
 
 /// homenav with link back to home page
       return (
-            <div className="homeNav_container">
-                  <h1 className='londa'>
-                        londa <br/> 
-                        ploetz
-                  </h1>
-                  <div className='circle-links'>
-                        <a href='mailto:lploetz@hotmail.com'
-                              target="_blank"
-                              className="email-img"
-                              rel="noopener noreferrer"
-                        ></a>
-                        <a href="https://github.com/londaploetz"
-                              target="_blank"
-                              className="github-img"
-                              rel="noopener noreferrer"
-                        ></a>
-                        <a href="https://linkedin.com/in/londa-ploetz"
-                              target="_blank"
-                              className="linkedin-img"
-                              rel="noopener noreferrer"
-                        ></a>
-                  </div>
+            <Container fluid>
+                  
+            <div className="homeNav_container1">
+                  <Row className="homeNav_container">
+                        <Col lg={10} sm={10}>  </Col>
+                  <Col lg={2} sm={2} > 
                   <Link
                         to="/home"
                         id="home-text"
                         className='project-home'>
                         home
                   </Link>
-
-            </div>
+                  </Col> 
+                  </Row> 
+     
+            </div> 
+            </Container>
       )
 }
 

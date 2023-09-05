@@ -20,8 +20,8 @@ const SideNav = (props) => {
       <Container fluid className='navbar-container'>
         <Row className="navbar-row">
           <Col lg={6} sm={12}> </Col>
-          <Col lg={2} sm={12} >  <button className="btn-links" onClick={props.clickAboutMe}>about me</button> </Col>
-          <Col lg={2} sm={12}>  <button className="btn-links">
+          <Col lg={2} sm={12} className='nav-btn' >  <button className="btn-links" onClick={props.clickAboutMe}>about me</button> </Col>
+          <Col lg={2} sm={12} className='nav-btn'>  <button className="btn-links">
             <Link
               to="/projects"
               id="projects"
@@ -29,7 +29,7 @@ const SideNav = (props) => {
               projects
             </Link></button>
           </Col>
-          <Col lg={2} sm={12} >
+          <Col lg={2} sm={12} className='nav-btn' >
             <button className="btn-links" onClick={props.clickResume}>resume</button>
           </Col>
   

@@ -1,18 +1,18 @@
-.navbar-container{
-padding-bottom: 10ch;
+.navbar-container {
+    padding-bottom: 10ch;
 }
 
 
-.navbar-row{
-padding: 10px;
-padding-top: 40px;
+.navbar-row {
+    padding: 10px;
+    padding-top: 40px;
 
-background: rgb(253, 222, 137);
-border-bottom: 2px solid #818181;
+    background: rgb(253, 222, 137);
+    border-bottom: 2px solid #818181;
 
 }
 
-.side-nav-bar {
+/* .side-nav-bar {
     position: relative;
     left: 0ch;
     top: 0ch;
@@ -70,7 +70,9 @@ border-bottom: 2px solid #818181;
     color: rgba(58, 129, 134, 0.58);
     text-shadow: 0px 4px 4px rgba(38, 63, 63, 0.144);
     font-size: 32px;
-}
+} */
+
+
 
 /* 
 .londa {
@@ -145,28 +147,82 @@ border-bottom: 2px solid #818181;
 } */
 
 
-.btn-links{
+.btn-links {
     display: block;
     text-decoration: none;
     font-family: 'Coiny', cursive;
     font-size: 30px;
-    color: rgb(68,119,123);
-    text-shadow: 0px 3px 0px rgba(239,154,159);
+    color: rgb(68, 119, 123);
+    text-shadow: 0px 3px 0px rgba(239, 154, 159);
     display: block;
     transition: 0.3s;
     text-align: left;
     border: none;
     margin: 0%;
     background: rgba(231, 222, 203, 0);
-   
+
 }
 
 .btn-links:hover {
-    color:  rgba(239,154,159);
-    text-shadow: 0px 3px 0px rgb(68,119,123);
-   
+    color: rgba(239, 154, 159);
+    text-shadow: 0px 3px 0px rgb(68, 119, 123);
+
 }
 
+
+@media screen and (max-width: 540px) {
+    .navbar-container {
+        padding-bottom: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .navbar-row {
+        padding: 10px;
+        padding-top: 30px;
+        background: rgb(253, 222, 137);
+        border-bottom: 2px solid rgb(68, 119, 123);
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav-btn {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+       
+
+    }
+
+    .btn-links {
+        display: block;
+        text-decoration: none;
+        font-family: 'Coiny', cursive;
+        font-size: 30px;
+        color: rgb(68, 119, 123);
+        text-shadow: 0px 3px 0px rgba(239, 154, 159);
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+        border: none;
+        margin: none;
+        background: rgba(231, 222, 203, 0);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .btn-links:hover {
+        color: rgba(239, 154, 159);
+        text-shadow: 0px 3px 0px rgb(68, 119, 123);
+
+    }
+
+}
 
 /* 
 @media screen and (max-height: 450px) {
