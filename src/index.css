@@ -20,6 +20,7 @@ height: 100%;
   padding-bottom: 0px;
   background: rgb(250, 246, 229);
   z-index: -1;
+  overflow-y: show;
   
 }
 
@@ -28,21 +29,22 @@ height: 100%;
   width: 100%;
 
   margin: 0;
-  background:rgb(250, 246, 229); ;
+  background:rgb(250, 246, 229); 
+  overflow-y: hidden;
  }
 
  html, body, #app, #app>div {
   height: 100%
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 900px) {
   html,
     body {
       position: relative;
   background-size: cover;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow-y: show;
   padding: 0px; 
   margin: 0;
 
@@ -52,7 +54,8 @@ height: 100%;
   padding: 0px; 
   margin: 0;
   align-items: center;
-   background: rgba(250, 234, 234, 0.795);
+   background: rgb(250, 246, 229);
+   overflow-y: hidden;
  }
 
 

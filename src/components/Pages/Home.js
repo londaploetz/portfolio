@@ -25,7 +25,7 @@ function Home() {
         ) : (
     <div className="home" >
     <Brand />
-    <Footer />
+    {/* <Footer /> */}
     </div>
     )}
 </div>

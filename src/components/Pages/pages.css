@@ -1,7 +1,7 @@
 .home {
     text-align: center;
     position: relative;
-    background: rgb(245, 224, 224);
+    background: rgb(250, 246, 229);
     background-position: center;
     flex-wrap: nowrap;
     background-size: cover;
@@ -10,26 +10,24 @@
     flex-wrap: nowrap;
     padding: 0px; 
     min-height: 0; 
-    overflow: hidden;
+    overflow: show;
   }
   
   .projects {
     text-align: center;
-    background:  rgb(245, 227, 227);
+    background: rgb(250, 246, 229);
     background-position: center;
     background-size: cover;
-    height: 310ch; 
-    padding: 0px; 
+    height: 100%; 
+    padding-bottom: 10px; 
     display: flex;
     flex-wrap: nowrap;
-    overflow-y: hidden;
+    overflow-y: scroll;
 
   }
 
   .each-project-container {
     position: relative;
-    display: flex;
-    flex-direction: column;
     padding: 2ch;
     text-align: left;
     left: 60ch;
@@ -73,12 +71,12 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  background: rgb(185, 210, 211);
+  background: rgb(68, 119, 123);
   z-index: 1;
 }
 
 .spinner {
-  color: rgb(252, 218, 218);
+  color:  rgba(239, 154, 159);
   font-size: 30px;
   width: 1em;
   height: 1em;
@@ -138,9 +136,22 @@
   }
 }
 
+@media screen and (max-width: 1400px) {
+  .each-project-container {
+    position: relative;
+    padding: 1ch;
+    text-align: left;
+    left: 48ch;
+    top: 0px;
+    width: 70%;
+    height: 200ch;
+    border-radius: 0%; 
+   
+}
+}
 
   @media only screen and (max-width: 890px) {
-    .home {
+    /* .home {
       padding: 0px;
       
     }
@@ -163,12 +174,12 @@
       width: 100%;
       height: 210ch;
       border-radius: 0%;   
-  }
+  } */
   }
 
   
 @media screen and (max-width: 540px){
-  .projects {
+  /* .projects {
     align-items: center;
     overflow-y: scroll;
     display: block;
@@ -186,5 +197,5 @@
     margin: 0;
     left: 0;
     padding-bottom: 0px;
-}
+} */
 }

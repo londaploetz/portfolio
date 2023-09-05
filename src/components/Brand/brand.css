@@ -1,68 +1,109 @@
+.mepic1 {
+
+    width: 90%;
+    margin-top: 5ch;
+}
+
+.tagline {
+    padding: 20px;
+    width: 50%;
+}
+
+.londa {
+    top: 20px;
+    display: block;
+    position: relative;
+    font-family: 'Coiny', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 90px;
+    color: rgb(239, 154, 159);
+    text-shadow: 0px 10px 0px rgba(68, 119, 123);
+    letter-spacing: 10px;
+    padding: 30px;
+
+}
+
 .banner {
     text-align: center;
     position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
     background-position: center;
     width: 100%;
     height: 100vh;
-    background:rgba(255, 236, 236, 0.795); 
-    overflow: hidden;
-    padding: 0ch;
+    background: rgb(250, 246, 229);
+    overflow: scroll;
+    justify-content: center;
+    padding-bottom: 10ch;
 }
 
-.brand-statement {
+
+.circle-links {
+
+    padding: 0ch;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+.email-img:hover,
+.linkedin-img:hover,
+.github-img:hover {
+    border-bottom: 2px solid rgb(97, 97, 97);
+
+
+
+}
+
+
+.email-img {
+    background-image: url("../../Assets/email.png");
     position: relative;
-    width: 240ch;
-    height: 90ch;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    height: 80px;
+    width: 45px;
+    background-size: contain;
+    justify-content: center;
     background-repeat: no-repeat;
-    top: 0ch;
-    padding: 0ch;
-    left: 0ch;
-    margin: 0%;
-
 }
 
-.bubble {
+.github-img {
+
+    background-image: url("../../Assets/github.png");
     position: relative;
-    display: block;
-    width: 70%;
-    height: 100%;
-    background-image: url("../../Assets/Images/bubble.png");
+    display: inline-block;
+    height: 80px;
+    width: 45px;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 40ch;
-    top: 0ch;
-    padding: 20%;
-    left: 14ch;
-    margin: 0%;
+    justify-content: center;
+
 }
-.peace{
+
+.linkedin-img {
+    background-image: url("../../Assets/linkedin.png");
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    width: 45px;
+    background-size: contain;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.peace {
     width: 0;
     height: 0;
 }
 
-.brand-txt {
-    display: flex;
-    position: relative;
-    font-family: 'Coiny', cursive;
-    font-style: normal;
-    width: 80%;
-    font-weight: 400;
-    padding-top: 0%;
-    font-size: 50px;
-    line-height: 45px;
-    color: #707070;
-    padding-left: 5%;
-    text-shadow: 0px 4px 4px rgba(202, 52, 52, 0.25);
-    margin: 0%;
-    top: 0%;
-}
+
 
 .mobile-download {
     display: none;
@@ -70,90 +111,15 @@
 
 
 
-.bg_img_change {
-    display: flex;
-    animation: changeBg 14s infinite;
-    width: 80%;
-    height: 20%;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    background-size: contain;
-    z-index: 0;
-    padding: 8%;
-    margin-left: 2%;
-    margin-bottom: 6%;
 
-}
-
-
-@keyframes changeBg {
-
-    0%,
-    100% {
-
-        background-image: url("../../Assets/Images/amazing1.png")
-    }
-
-    10% {
-
-        background-image: url("../../Assets/Images/amazing2.png")
-    }
-
-    20% {
-
-        background-image: url("../../Assets/Images/amazing3.png")
-    }
-
-    30% {
-
-        background-image: url("../../Assets/Images/amazing4.png")
-    }
-
-    40% {
-
-        background-image: url("../../Assets/Images/amazing5.png")
-    }
-
-    50% {
-
-        background-image: url("../../Assets/Images/amazing6.png")
-    }
-
-    60% {
-
-        background-image: url("../../Assets/Images/amazing7.png")
-    }
-
-    40% {
-
-        background-image: url("../../Assets/Images/amazing8.png")
-    }
-
-    70% {
-
-        background-image: url("../../Assets/Images/amazing9.png")
-    }
-
-    80% {
-
-        background-image: url("../../Assets/Images/amazing10.png")
-    }
-
-    90% {
-
-        background-image: url("../../Assets/Images/amazing11.png")
-    }
-
-
-}
 
 .close-btn-lg {
     background-color: #ffffff00;
     position: relative;
     color: rgba(0, 0, 0, 0.795);
-   text-align: right;
-
+    text-align: right;
+    color: rgb(68, 119, 123);
+    text-shadow: 0px 3px 0px rgba(239, 154, 159);
     font-family: 'Dongle', sans-serif;
     display: inline;
     border: none;
@@ -162,41 +128,38 @@
     top: 2px;
     font-size: 70px;
 
-    color:#858484;
-
 }
 
-.wrapper-sqr-about-me {
-    top: 0ch;
-    right: 0ch;
-    z-index: 1;
-    position: absolute;
-    display: block;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    background: rgb(255, 236, 236);
-    border-radius: 10px 0px 10px 0px;
-    overflow: hidden;
 
+
+.resume-true {
+    position: relative;
+    display: block;
+    height: auto;
+    height: max-content;
+    border-radius: 2ch;
+    width: 75ch;
+}
+
+.about-me {
+    position: relative;
+    display: block;
+    height: auto;
+    height: max-content;
+    border-radius: 2ch;
 }
 
 .about-me-bg {
-    position: absolute;
+    position: relative;
     display: block;
     flex-direction: column;
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: max-content;
     border-radius: 2ch;
-    background: rgba(184, 207, 236, 0.473);
-    box-shadow: rgba(99, 9, 9, 0.25) 0px 25px 50px -12px;
-    top: 5ch;
+    top: 0ch;
     padding-left: 10ch;
     padding-bottom: 20px;
-    left: 65ch;
     margin: 0%;
-    overflow: hidden;
-
 }
 
 .about-me-txt {
@@ -218,13 +181,15 @@
     text-align: left;
     padding-right: 2ch;
     z-index: 3;
-    
+
 }
 
-.about-me-title-lg{
-    position: absolute;
+.about-me-title-lg {
+    position: relative;
     font-family: 'Coiny', cursive;
     font-style: normal;
+    background: rgb(253, 222, 137);
+    border-bottom: 2px solid #818181;
     font-weight: 400;
     font-size: 45px;
     line-height: 45px;
@@ -233,57 +198,53 @@
     left: 0;
     margin-top: 0px;
     padding: 30px;
-    color: #818181;
+    color: rgb(68, 119, 123);
+    text-shadow: 0px 3px 0px rgba(239, 154, 159);
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: rgba(184, 207, 236, 0.473);
-    border-radius: 20px 20px 0px 0px;
-  
+
+
 }
-.about-me-title{
+
+.about-me-title {
     display: none;
 }
 
 
-
-.close-btn-resume-lg {
+.close-btn-lg {
     background-color: #ffffff00;
     position: relative;
     color: rgba(0, 0, 0, 0.795);
     font-family: 'Dongle', sans-serif;
-    display: inline;
     border: none;
     line-height: 0;
-    left: 23%;
+    left: 60%;
     right: 0;
     top: 2px;
     bottom: 0;
     font-size: 70px;
-    color:#858484;
+    color: rgb(68, 119, 123);
+    text-shadow: 0px 3px 0px rgba(239, 154, 159);
 
 }
 
 
 .pdf-resume {
-    width: 75ch;
+    width: 79ch;
     height: 91ch;
-    top: 7ch;
-    left: 8.2ch;
-    position: absolute;
+    top: 0ch;
+    left: 2ch;
+    position: relative;
     display: block;
     align-items: center;
-
-
-
-}
-.resume-title{
-    display: none;
+    border: 10px solid rgb(253, 222, 137);
 }
 
-.resume-title-lg{
-    position: absolute;
+
+.resume-title-lg {
+    position: relative;
     font-family: 'Coiny', cursive;
     font-style: normal;
     font-weight: 400;
@@ -291,36 +252,472 @@
     line-height: 45px;
     margin: 0;
     width: 100%;
-    left: 0;
+    left: 17px;
     margin-top: 0px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: #818181;
+    color: rgb(68, 119, 123);
+    text-shadow: 0px 3px 0px rgba(239, 154, 159);
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(206, 221, 243);
-    border-radius: 20px 20px 0px 0px;
+    background: rgb(253, 222, 137);
+
 
 }
 
-.resume_container{
-    width:92ch;
-    height: 92%;
+.resume_container {
+    width: max-content;
+    height: 20ch;
     position: relative;
     display: block;
-    background:rgb(214, 203, 223);
-    left: 35%;
-    top: 2ch;
+    top: 0ch;
     z-index: 2;
-    border-radius: 20px
 
 
 }
 
+.resume-top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-family: 'Coiny', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+    margin: 0;
+    width: 100%;
+    left: 16px;
+
+    color: rgb(68, 119, 123);
+    text-shadow: 0px 3px 0px rgba(239, 154, 159);
+    border-bottom: none;
+    background: rgb(253, 222, 137);
+}
 
 
+@media screen and (max-width: 900px) {
+
+
+    .banner {
+
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        padding: 0;
+        left: 0;
+        padding-bottom: 0ch;
+
+    }
+
+    .londa {
+        font-size: 60px;
+        top: 0;
+    }
+
+    .mepic1 {
+
+        width: 80%;
+        margin-top: 1ch;
+    }
+
+    .about-me {
+        position: relative;
+        display: block;
+        height: auto;
+
+
+    }
+
+    .about-me-bg {
+        position: relative;
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        height: 20ch;
+        height: max-content;
+        border-radius: 2ch;
+        top: 0ch;
+        padding-left: 0ch;
+        padding-bottom: 20px;
+        margin: 0%;
+    }
+
+    .about-me-txt {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+        margin-right: 20px;
+        height: 160px;
+        word-wrap: break-word;
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 55px;
+        color: #818181;
+        top: 20%;
+        left: 0px;
+        text-align: left;
+        padding-right: 2ch;
+        z-index: 3;
+        height: 100%;
+        padding: 10px
+    }
+
+    .about-me-title-lg {
+        position: relative;
+        font-family: 'Coiny', cursive;
+        font-style: normal;
+        background: rgb(253, 222, 137);
+        border-bottom: 2px solid #818181;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 45px;
+        margin: 0;
+        width: 100%;
+        left: 0;
+        margin-top: 0px;
+        padding: 30px;
+        color: rgb(68, 119, 123);
+        text-shadow: 0px 3px 0px rgba(239, 154, 159);
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+
+    .close-btn-resume {
+        left: 9%;
+    }
+
+    .resume-true {
+        height: 100ch;
+        width: 100%;
+
+    }
+
+    .pdf-resume {
+        width: 79ch;
+        height: 91ch;
+        top: 0ch;
+        left: 2ch;
+        position: relative;
+        display: block;
+        align-items: center;
+        border: none;
+    }
+
+    .resume-title {
+        display: none;
+    }
+
+    .resume-title-lg {
+        position: relative;
+        font-family: 'Coiny', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 45px;
+        margin: 0;
+        width: fit-content;
+        left: 0px;
+        margin-top: 0px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: rgb(68, 119, 123);
+        text-shadow: 0px 3px 0px rgba(239, 154, 159);
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: rgb(253, 222, 137);
+
+
+    }
+
+    .resume_container {
+        width: 79ch;
+        height: 10ch;
+        position: relative;
+        display: block;
+        top: 0ch;
+        z-index: 2;
+    }
+
+    .resume-top {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        font-family: 'Coiny', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 45px;
+        margin: 0;
+        width: 100%;
+
+
+        color: rgb(68, 119, 123);
+        text-shadow: 0px 3px 0px rgba(239, 154, 159);
+        border-bottom: 2px solid #818181;
+        background: rgb(253, 222, 137);
+    }
+
+
+}
+@media screen and (max-width: 550px) {
+.close-btn-lg {
+    background-color: #ffffff00;
+    position: relative;
+    color: rgba(0, 0, 0, 0.795);
+    font-family: 'Dongle', sans-serif;
+    border: none;
+    line-height: 0;
+    left: 50%;
+    right: 0;
+    top: 2px;
+    bottom: 0;
+    font-size: 70px;
+    color: rgb(68, 119, 123);
+    text-shadow: 0px 3px 0px rgba(239, 154, 159);
+
+}
+}
+
+@media screen and (max-width: 550px) {
+    .banner {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        padding: 0;
+        left: 0;
+        padding-bottom: 0ch;
+    }
+
+    .mepic1 {
+        padding: 20px;
+        width: 80%;
+        margin-top: 0ch;
+    }
+
+
+    .circle-links {
+        position: relative;
+        padding: 0ch;
+        justify-content: center;
+        text-align: center;
+        margin: 0px;
+        display: flex;
+
+
+    }
+
+    .close-btn-resume {
+        background-color: #ffffff00;
+        position: relative;
+        color: #818181;
+        font-family: 'Dongle', sans-serif;
+        display: inline;
+        border: none;
+        line-height: 0;
+        left: 7% !important;
+        right: 0;
+        top: 2px;
+        bottom: 0;
+        font-size: 70px;
+
+    }
+
+
+    .pdf-resume {
+        display: none !important;
+
+    }
+
+    .resume-true {
+        height: 40ch;
+        padding: 0;
+    }
+
+    .resume-title-lg {
+        position: relative;
+        font-family: 'Coiny', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 45px;
+        margin: 0;
+        width: 100%;
+        display: inline-block;
+        margin-top: 0px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: rgb(68, 119, 123);
+        text-shadow: 0px 3px 0px rgba(239, 154, 159);
+        text-align: center;
+        justify-content: center;
+        background: rgb(253, 222, 137);
+    }
+
+  
+
+    .mobile-download {
+
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        
+        z-index: 3;
+        height: 100%;
+
+        width: 60%;
+        margin-right: 20px;
+        height: 160px;
+        word-wrap: break-word;
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 55px;
+        color: #818181;
+        top: 20%;
+        left: 0px;
+        text-align: left;
+        padding-right: 2ch;
+        z-index: 3;
+
+
+    }
+
+    .small-download {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .resume-top {
+     
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            font-family: 'Coiny', cursive;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 45px;
+            line-height: 45px;
+            margin: 0;
+            width: 100%;
+            padding-left: 2px; 
+            color: rgb(68, 119, 123);
+            text-shadow: 0px 3px 0px rgba(239, 154, 159);
+            border-bottom: 2px solid #818181;
+            background: rgb(253, 222, 137);
+          
+        
+    }
+/* 
+    .peace {
+
+        width: 15ch;
+        height: 15ch;
+        position: relative;
+        padding-top: 0;
+        z-index: 2;
+        left: 0ch;
+        background: rgba(128, 153, 184, 0);
+
+
+
+    } */
+
+    .tagline {
+        width: 90%;
+        padding: 0px;
+    }
+
+
+
+
+
+    .email-img {
+        background-image: url("../../Assets/email.png");
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        display: inline-block;
+        height: 80px;
+        width: 45px;
+        background-size: contain;
+        justify-content: center;
+        background-repeat: no-repeat;
+    }
+
+    .github-img {
+
+        background-image: url("../../Assets/github.png");
+        position: relative;
+        display: inline-block;
+        height: 80px;
+        width: 45px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        justify-content: center;
+
+    }
+
+    .linkedin-img {
+        background-image: url("../../Assets/linkedin.png");
+        position: relative;
+        display: inline-block;
+        height: 80px;
+        width: 45px;
+        background-size: contain;
+        justify-content: center;
+        background-repeat: no-repeat;
+    }
+
+    .about-me-title-lg {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Coiny', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 45px;
+        margin: 0;
+        width: 100%;
+        color: rgb(68, 119, 123);
+        text-shadow: 0px 3px 0px rgba(239, 154, 159);
+        border-bottom: 2px solid #818181;
+        background: rgb(253, 222, 137);
+    }
+
+    .close-btn-lg {
+        left: 14px;
+    }
+}
+
+
+
+/* 
 @media screen and (max-width: 1450px) {
     .brand-statement {
 
@@ -771,4 +1168,4 @@
         
         
     }
-}
+} */

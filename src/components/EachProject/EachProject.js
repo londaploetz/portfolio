@@ -1,7 +1,9 @@
 import React from 'react';
 import Portfolio from '../Portfolio/Portfolio';
 import {projectImg01, projectImg02, projectImg03} from './imports.js';
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 ///save project information to easily change when needed
 const projectData = [
   {
@@ -30,12 +32,19 @@ const projectData = [
 const EachProject = () => (
   
   /// display each project's title, text, image, link, live website link
-    <div className="each-project-container">
+   
+  <Container fluid="md" className="each-project-container1">
+  <Row>
+    <Col>
+   <div>
       {projectData.map((item, index) => (
         <Portfolio title={item.title} text={item.text} imageP={item.imageP} link={item.link} live ={item.live} key={item.title + index} />
       ))} 
     {}
   </div>
+  </Col>
+  </Row>
+</Container>
 );
 
 export default EachProject;
